@@ -27,5 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.PRIVATE_KEY }}
-          external_repository:voidash/blog
+          external_repository: voidash/blog
           publish_dir: ./public
