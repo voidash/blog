@@ -1,0 +1,6 @@
+baseURL = 'voidash.github.io/blog/'
+languageCode = 'en-us'
+title = 'AshLogs'
+theme = "PaperMod"
+headline= 'Serenity'
+
