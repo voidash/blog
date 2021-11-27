@@ -1,4 +1,4 @@
-baseURL = 'https://voidash.github.io/'
+baseURL = 'https://voidash.github.io/blog'
 languageCode = 'en-us'
 title = 'AshLogs'
 theme = "PaperMod"
