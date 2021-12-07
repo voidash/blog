@@ -2,12 +2,13 @@
 title: "Time and Linux"
 date: 2021-11-28T08:23:51+05:45
 draft: false
+cover:
+    image: "https://1.bp.blogspot.com/-LcIZfCSZibQ/V2rzYMcBdWI/AAAAAAAAADc/UxVvsBvnUPkOlEf5FAt12S6mNq3VLLmZwCLcB/s1600/Capture.PNG"
 ---
+![](https://1.bp.blogspot.com/-LcIZfCSZibQ/V2rzYMcBdWI/AAAAAAAAADc/UxVvsBvnUPkOlEf5FAt12S6mNq3VLLmZwCLcB/s1600/Capture.PNG)
+This post discusses how to setup time on linux if you are affected by dual boot or by discharged CMOS battery. It starts with a fix for a dual boot system and on latter part there is a fix for cmos battery problem.
 
-This blog discusses how to setup time on linux if you are affected by dual boot or by discharged CMOS battery.
-
-
-## Is dual boot messing up your date and time?
+## Dual Boot Messing Up Time 
 **Universal Time** or UTC is primary time standard by which the world regulates clock and time. GMT is timezone and UTC is time standard. 
 
 **RTC Time** is run by your computer even when you don't power the device through the use of CMOS battery. It is also known as hardware clock. 

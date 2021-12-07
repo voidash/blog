@@ -1,6 +1,8 @@
 baseURL = 'https://voidash.github.io/blog'
 languageCode = 'en-us'
 title = 'AshLogs'
+content= "Welcome to my blog"
 theme = "PaperMod"
 headline= 'Serenity'
+
 
