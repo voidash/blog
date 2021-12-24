@@ -1,5 +1,5 @@
 ---
-title: "Ac Vs  Dc : which is more dangerous?"
+title: "AC Vs  DC : which is more dangerous?"
 date: 2018-12-29T00:00:00+05:45
 draft: false
 cover:
