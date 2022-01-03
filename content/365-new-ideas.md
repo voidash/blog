@@ -1,8 +1,9 @@
 ---
-title: "Year Worth Of Ideas"
-date: 2021-12-13T07:42:54+05:45
+title: " Year Worth Of Ideas"
+layout: "year"
+url: "/2022-ideas/"
 menu: "main"
-draft: true
+summary: archives
 ---
 
 

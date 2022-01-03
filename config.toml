@@ -5,4 +5,7 @@ content= "Welcome to my blog"
 theme = "PaperMod"
 headline= 'Serenity'
 
+[permalinks]
+tutorials = "/blog/blogger/:title/"
+
 
