@@ -20,7 +20,7 @@ you have the right to be here
 
 And whether or not it is clear to you
 
-no doubt the universe is unfolding as it should
+no doubt the universe is unfolding as it should -- Max Ehrmann
 
 ## Cycling in pokhara:
 
@@ -62,7 +62,7 @@ but i mustered up enough courage while bumbling
 
 opened up those closed gates
 
-Sandhya, you were the answer to my incessant but buried urges -- Max Ehrmann
+Sandhya, you were the answer to my incessant but buried urges
 
 ## First time in Mustang:
 
