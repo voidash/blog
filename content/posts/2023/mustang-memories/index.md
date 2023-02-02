@@ -10,7 +10,7 @@ cover:
 
 A written memoir of the trip from my side.
 
-{{ image-resize Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/nice_profile.png "100x100"}}
+{{< figure src="img/nice_profile.png" width="350" height="450" >}}
 
 You are a child of universe
 
@@ -24,11 +24,10 @@ no doubt the universe is unfolding as it should
 
 ## Cycling in pokhara:
 
-![pokhara ride_cycle.png](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/pokhara_ride_cycle.png)
-
-![Untitled](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/Untitled.png)
+{{< figure src="img/pokhara_ride_cycle.png" width="500" height="250" >}}
 
 all the eons before me and the time my life conjured
+
 the back and forth between nihilism and fatalism
 
 i accept the god within me
@@ -43,7 +42,7 @@ for all the souls after me
 
 ## Fewataal boating:
 
-![Untitled](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/Untitled%201.png)
+![Untitled](img/Untitled%201.png)
 
 The vortex in a swing
 
@@ -53,7 +52,7 @@ My life as a boat catching up with a mirage
 
 ## Roller skating:
 
-![Untitled](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
 
 i don’t know how many times i fell
 
@@ -63,13 +62,11 @@ but i mustered up enough courage while bumbling
 
 opened up those closed gates
 
-Sandhya, you were the answer to my incessant but buried urges
+Sandhya, you were the answer to my incessant but buried urges -- Max Ehrmann
 
 ## First time in Mustang:
 
-![Untitled](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/Untitled%203.png)
-
-![Untitled](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/Untitled%204.png)
+![Untitled](img/Untitled%204.png)
 
 The symphonies of black and white
 
@@ -81,7 +78,7 @@ distant hills bleached in grey
 
 ## Baglung voices:
 
-![kalika_mandir.jpg](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/kalika_mandir.jpg)
+![kalika_mandir.jpg](img/kalika_mandir.jpg)
 
 For it was the scale that left me bewildered
 
@@ -113,7 +110,7 @@ can only be tempered by you
 
 ## for my friends:
 
-![Untitled](Memories%20Tour%20to%20Mustang%203e183a1db1924e789780c63ce0ed2a7c/Untitled%205.png)
+![Untitled](img/Untitled%205.png)
 
 i thank the gods of serendipity
 
