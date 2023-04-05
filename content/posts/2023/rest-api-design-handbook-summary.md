@@ -1,5 +1,5 @@
 ---
-title: "REST API Design Rulebook"
+title: "REST API Design Rulebook summary"
 date: 2023-04-05T18:25:45+05:45
 draft: false
 ---
