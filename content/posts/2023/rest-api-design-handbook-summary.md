@@ -1,7 +1,5 @@
 ---
-title: "REST API Design Rulebook summary"
-date: 2023-04-05T18:25:45+05:45
-draft: false
+{}
 ---
 
 The Richardson Maturity Model outlines three levels of REST API maturity that make it RESTful. Level 1 is characterized by the use of URI resources and HTTP methods. Level 2 adds the use of HTTP response codes and HATEOAS. Level 3 adds additional hypermedia controls to further enable discoverability and self-description of the API.
