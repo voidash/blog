@@ -60,6 +60,20 @@
 <h1>Posts</h1>
 </header>
 <article class=post-entry>
+<figure class=entry-cover><img loading=lazy src=https://i.imgur.com/b2g8ybr.png alt>
+</figure>
+<header class=entry-header>
+<h2>Postgres on Digital Ocean Droplet
+</h2>
+</header>
+<section class=entry-content>
+<p>Digital ocean allows you to just host the postgres database through it’s postgreSQL management tools but this tutorial is for those who wants to setup on their droplet machine. This assumes that you are on Ubuntu Machine
+Step 1 - Install PostgreSQL sudo apt update sudo apt install postgres postgresql-contrib sudo systemctl start postgresql Step 2 - Posgres Roles and Databases Switch to postgres account and run PSQL prompt sudo -u postgres psql Exit out of the prompt by typing \q postgres=# \q Step 3: Crate new User sudo adduser voidash Step 4 - Create new Role Rolename should be same as user as per convention, same goes for database...</p>
+</section>
+<footer class=entry-footer><span title="2023-12-30 15:44:27 +0545 +0545">December 30, 2023</span></footer>
+<a class=entry-link aria-label="post link to Postgres on Digital Ocean Droplet" href=https://voidash.github.io/blog/posts/2023/postgres-on-digital-ocean-droplet/></a>
+</article>
+<article class=post-entry>
 <figure class=entry-cover><img loading=lazy src=https://i.imgur.com/2LE2gGU.png alt>
 </figure>
 <header class=entry-header>
@@ -182,20 +196,6 @@ Android is modified by manufacturers where they add some applications and games 
 <footer class=entry-footer><span title="2021-12-07 17:20:48 +0545 +0545">December 7, 2021</span>&nbsp;·&nbsp;7 min</footer>
 <a class=entry-link aria-label="post link to Rust New Competitor to C and C++" href=https://voidash.github.io/blog/posts/2021/rust-new-competitor-to-c-and-c++/></a>
 </article>
-<article class=post-entry>
-<figure class=entry-cover><img loading=lazy src=https://www.freecodecamp.org/news/content/images/2020/08/rust-2.jpg alt>
-</figure>
-<header class=entry-header>
-<h2>How To Install Rust And The Linker It Requires On Linux
-</h2>
-</header>
-<section class=entry-content>
-<p>This post discusses how to install rust on linux. Well installation process is pretty simple but sometimes minimal distribution like Arch maynot bundle the linker and rustup (a tool used to install and manage rust installation) also doesn’t include linker
-Build Essential contains Linker Rust doesn’t include linker (which is required for generating execuatable ) on its installer. To install the linker, first check the type of distro you have...</p>
-</section>
-<footer class=entry-footer><span title="2021-12-04 08:23:51 +0545 +0545">December 4, 2021</span></footer>
-<a class=entry-link aria-label="post link to How To Install Rust And The Linker It Requires On Linux" href=https://voidash.github.io/blog/posts/2021/install-rust-linux/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=next href=https://voidash.github.io/blog/posts/page/2/>Next Page »</a>
@@ -203,7 +203,7 @@ Build Essential contains Linker Rust doesn’t include linker (which is required
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2023 <a href=https://voidash.github.io/blog>AshLogs</a></span>
+<span>&copy; 2024 <a href=https://voidash.github.io/blog>AshLogs</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
