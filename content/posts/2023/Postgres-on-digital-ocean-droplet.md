@@ -1,7 +1,7 @@
 ---
 title: "Postgres on Digital Ocean Droplet"
 date: 2023-12-30T15:44:27+05:45
-draft: true
+draft: false
 cover:
   image: "https://i.imgur.com/b2g8ybr.png"
 ---

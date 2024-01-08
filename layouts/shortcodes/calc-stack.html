@@ -1,0 +1,313 @@
+<style>
+        .stack-overall{
+          color:black;
+          padding: 10px;
+          background: white;
+        }
+        .border {
+            border: 1px solid ;
+        }
+        .stack {
+            padding: 10px;
+            min-width: 200px;
+            position: relative;
+            border-right: 1px solid;
+        }
+        .stack > h4 {
+            top: -33px;
+            position: absolute;
+            background: white;
+        }
+        /* program counter */
+        .register{
+            padding: 7px;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+        }
+        .pc {
+            
+        }
+        .top {
+            display: flex;
+        }
+        
+        .program-cluster {
+            display: flex;
+        }
+        .program {
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            border: 1px solid red;
+        }
+        .p-title {
+            position: absolute;
+            top: -10px;
+            background: white;
+        }
+        .controls {
+            margin-top: 10px;
+        }
+        .c-d {
+            border: 1px solid;
+        }
+        .btn {
+          margin: 4px;
+          background: #2d2d30;
+          color: white;
+          border: 1px solid black;
+
+        }
+    </style>
+
+<div class="stack-overall">
+<div class="top border">
+        <div class="stack ">
+            <h4>stack</h4>
+            <div class="content border">Empty</div>
+        </div>
+
+        <div class="register">
+            <span>Program Counter</span>
+            <div class="pc border">
+                0x8153
+            </div>
+
+            <span>LR Register</span>
+            <div class="lr border">
+                Empty
+            </div>
+               
+            <button class="btn autoplay">Autoplay</button>
+            <button class="btn Next">Next</button>
+            <button class="btn restart">Restart</button>
+        </div>
+    </div>
+    <div class="program-cluster">
+    <div class="program p1">
+        <div class="p-title">P1</div>
+        <div class="some">XX</div>
+        <div class="l1">0x8153: CALL P2</div>
+        <div class="some">XX</div>
+        <div class="some">XX</div>
+    </div>
+
+    <div class="program p2">
+        <div class="p-title">Hello</div>
+        <div class="some">XX</div>
+        <div class="l1">0x81B2:CALL P2</div>
+        <div class="some">XX</div>
+        <div class="some">XX</div>
+    </div>
+</div>
+
+<div class="c-d">Description</div>
+</div>
+<script module>
+
+let autoplay = document.querySelector('.autoplay');
+let next = document.querySelector('.Next');
+let restart = document.querySelector('.restart');
+
+let stack = document.querySelector('.stack');
+let pc = document.querySelector('.pc');
+let lr = document.querySelector('.lr');
+
+let programCluster = document.querySelector('.program-cluster');
+
+let programs = [
+    ["XX", "0x8153: CALL P2", "0x8154: NOP"],
+    ["0x8bde: PUSH LR", "0x8bdf: CALL P3", "0x8be0: POP PC"],
+    ["0x8cd1: PUSH LR", "XX", "0x8cd9: POP PC"],
+];
+let line = [];
+
+function convertToHTML(pa, className) {
+    let html = `<div class="program ${className}">\n`;
+    html += `    <div class="p-title">${className.toUpperCase()}</div>\n`;
+
+    for (let line of pa) {
+        if (line === "XX") {
+            html += `    <div class="some">${line}</div>\n`;
+        } else {
+            html += `    <div class="ln ${line.substring(0,line.indexOf(':'))}">${line}</div>\n`;
+        }
+
+    }
+
+    html += `</div>\n`;
+    return html;
+}
+
+
+
+programCluster.innerHTML = (
+convertToHTML(programs[0], "p1") +  
+convertToHTML(programs[1], "p2") + 
+convertToHTML(programs[2], "p3"));
+
+document.querySelectorAll('.ln').forEach((a) => console.log(a.innerHTML));
+
+let index = 0;
+let stackArr = [];
+let stopAutoplay = false;
+let activated = false;
+let movement = [
+    "0x8153: lr : Go to next procedure P2, This changes the pc to P2 and LR will contain return address of p1",
+    "0x8bde: stack<P1 Address>: Push the LR content to stack, LR contains address of P1",
+    "0x8bdf: lr: Go to next procedure P3, LR will contain the return address of P2",
+    "0x8cd1: stack<P2 Address>: Push the LR content to stack, which is the P2 address",
+    "0x8cd9: pop : Pop the stack value and store it in program counter",
+    "0x8be0: pop : Pop the stack value and store it in program counter",
+    "0x8be0: pop : Pop the stack value and store it in program counter",
+    "0x8154: nop : Nop",
+];
+
+function block(time) {
+    return new Promise((resolve,reject) => {
+            const timeout = setTimeout(() => {
+                if (!stopAutoplay) {
+                    resolve("ok");
+                }else {
+                    clearTimeout(timeout);
+                    reject("no");
+                }
+            },time);
+
+            resolve.cancel = () => {
+                clearTimeout(timeout);
+                stopAutoplay = false;
+                reject(new Error("Cancelled"));
+            }
+    });
+}
+
+function createCancellableBlock() {
+    const ret = {};
+    ret.signal = new Promise((resolve, reject) => {
+        ret.cancel = () => {
+            reject(new Error("Promise was cancelled"));
+        }
+    });
+    return ret;
+}
+
+
+autoplay.addEventListener("click", async () => {
+    next.disabled = true;
+    if (!activated) {
+        activated = true;
+        for(let i = 0; i < movement.length; i++)  {
+                try{
+                    let val = await block(3000);
+                    console.log(stopAutoplay);
+                    highlight(i);
+                }catch{
+                    stopAutoplay = false;
+                    break;
+                }
+        }
+
+    activated = false;
+    next.disabled = false;
+    }
+});
+
+function getRandomColor() {
+
+    const randomRed = Math.floor(Math.random() * 256);
+    const randomGreen = Math.floor(Math.random() * 256);
+    const randomBlue = Math.floor(Math.random() * 256);
+
+    const compRed = 255 - randomRed; 
+    const compGreen = 255 - randomGreen;
+    const compBlue = 255 - randomBlue;
+
+    return [
+            `rgb(${randomRed},${randomGreen},${randomBlue})`,
+            `rgb(${compRed},${compGreen}, ${compBlue})`
+           ];
+}
+
+function highlight(i)  {
+    // get the address
+    let spl = movement[i].split(":");
+    let address = spl[0];
+    let nextAddress = (Number.parseInt(address, 16)+1).toString(16);
+
+    let whatToDo = spl[1];
+    let description = spl[2];
+
+    //set description
+    document.querySelector('.c-d').innerHTML = description;
+
+    // set pc
+    pc.innerHTML = `0x` + nextAddress;
+
+    // if LR then there is a call which means storing PC contents to LR
+    if(whatToDo.includes("lr")) {
+        lr.innerHTML = pc.innerHTML;
+        let randomColor = getRandomColor();
+            lr.style.backgroundColor = randomColor[0];
+            lr.style.color = randomColor[1];
+    }
+
+    // push to stack 
+    if(whatToDo.includes("stack")) {
+        stackArr.push(nextAddress);
+        let stackString = `<h4>stack</h4>`;
+        for (let st of stackArr) {
+            console.log(whatToDo.match(/<([^>]+)>/)[1]);
+            stackString+= ` <div class="content border">${whatToDo.match(/<([^>]+)>/)[1]}:  0x${nextAddress}</div>`;
+        }
+        stack.innerHTML = stackString;
+    }
+
+    if(whatToDo.includes("pop")) {
+        stackArr.pop();
+        let stackString = `<h4>stack</h4>`;
+        for (let st of stackArr) {
+            stackString+= ` <div class="content border"> 0x${nextAddress}</div>`;
+        }
+        stack.innerHTML = stackString;
+    }
+
+
+
+    //show the currently executing line  
+    let c = document.getElementsByClassName(`${address}`)[0]
+    c.style.backgroundColor = "yellow";
+    setTimeout(() => {c.style.backgroundColor = "red"}, 3000);
+
+}
+
+function restartFn() {
+    next.disabled = false;
+    index = 0;
+    stackArr = [];
+    stack.innerHTML = `<h4>stack</h4><div class="content border"> Empty</div> `;
+    pc.innerHTML =`0x8153`;
+    lr.innerHTML =`Empty`;
+    activated = false;
+    stopAutoplay = true;
+
+    programCluster.innerHTML = (
+    convertToHTML(programs[0], "p1") +  
+    convertToHTML(programs[1], "p2") + 
+    convertToHTML(programs[2], "p3"));
+
+}
+
+
+
+restart.addEventListener("click", restartFn);
+
+next.addEventListener("click", () => {
+    highlight(index);
+    index++;
+})
+
+
+
+</script>
