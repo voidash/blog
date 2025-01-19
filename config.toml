@@ -8,4 +8,11 @@ headline= 'Serenity'
 [permalinks]
 tutorials = "/blog/blogger/:title/"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+  disableXML = true
 

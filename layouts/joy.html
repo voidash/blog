@@ -1,0 +1,31 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+<div>
+{{ range (readDir "content/joy-and-curiosity/") }}
+  {{ if .IsDir }}
+  <h2>{{ .Name | title }}</h2>
+  <ul style="list-style-type: none; margin-bottom: 20px;">
+    {{ $path := printf "joy-and-curiosity/%s/" .Name }}
+    {{ range where (where $.Site.RegularPages "Type" "joy-and-curiosity") "File.Dir" $path }}
+      <li style="margin-left:20px; margin-bottom: 20px;">
+        <div>
+          <a href="{{ .RelPermalink }}" style="font-size:1.3rem">{{ .Title }}</a>
+          <div style="font-size:0.9rem; color:gray">{{ .Date | time.Format "Jan 2, 2006" }} </div>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+{{ end }}
+</div>
+
+{{- end }}

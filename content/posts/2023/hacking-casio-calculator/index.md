@@ -1,7 +1,7 @@
 ---
 title: "Hacking Casio Calculator"
 date: 2023-12-29T15:15:25+05:45
-draft: true
+draft: false
 cover:
   image: "img/2023-12-29-15-38-14.png"
 ---
