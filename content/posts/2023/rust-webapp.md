@@ -88,7 +88,7 @@ The base of our templates. For for information about templating refer to [jinja2
     <div id="content">{% block content %}{% endblock content %}</div>
     <div id="footer">
         {% block footer %}
-        &copy; Copyright 2023 <a href="http://thapa-ashish.com.np">Ashish Thapa</a>.
+        &copy; Copyright 2023 <a href="https://thapa-ashish.com.np">Ashish Thapa</a>.
         {% endblock footer %}
     </div>
 </body>

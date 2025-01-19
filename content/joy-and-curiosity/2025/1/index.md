@@ -3,7 +3,7 @@ title: "Joy and Curiosity #1"
 date: 2025-01-19T19:05:31+05:45
 draft: false
 cover:
-    image: "main.jpg"
+    image: "assets/main.jpg"
 ---
 
 Hey, Welcome to \#1 edition of Joy & Curiosity.
@@ -194,4 +194,4 @@ fn main() {
 - `Account abstraction (ERC-4337)` is mentioned in [Vitalik's personal user experience](https://vitalik.eth.limo/general/2023/02/28/ux.html.). Account abstraction is what i have been working most time this week. Yes you do need EOA or another equivalent account to sign the User operation. But I think moving towards that makes UX more accessible. Stuff like account recovery doesn't require guardians(bunch of people you select to recover ur acc) to download new app just for sake of being your guardian.
 
 - Went up hiking to **champadevi**. Last week i went to **Jamacho** and it was around $\approx 8kms$. Champadevi was nearly about twice as long but i am proud of walking around $\approx16 km$ .
-  ![Screenshot_20250119_163330_Lose It! 1.jpg](Joy%20%26%20Curiosity%20%231-media/ab70d6511f21827f7dc8ad3fb0df8024409ab43b.jpg "wikilink")
+  ![Screenshot_20250119_163330_Lose It! 1.jpg](assets/ab70d6511f21827f7dc8ad3fb0df8024409ab43b.jpg "wikilink")
