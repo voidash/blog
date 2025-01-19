@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Randoms on AshLogs</title><link>https://voidash.github.io/blog/random/</link><description>Recent content in Randoms on AshLogs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://voidash.github.io/blog/random/index.xml" rel="self" type="application/rss+xml"/><item><title>Reflecting Myself: 2020</title><link>https://voidash.github.io/blog/random/2020/post-class-reflection/</link><pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate><guid>https://voidash.github.io/blog/random/2020/post-class-reflection/</guid><description>this blogpost is part of the assigment given to us on course ENGT 102. Just posting because it reminds me of my shortcomings.
-Handling the situation: The train is out of the track; Deviated from its journey. Looks like its heading the opposite path. How can i bring it back? I should assess the situation, understand the condition, and make plans according to it but Somehow my brain manages to abstract things out.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Randoms on AshLogs</title>
+    <link>https://voidash.github.io/blog/random/</link>
+    <description>Recent content in Randoms on AshLogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://voidash.github.io/blog/random/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflecting Myself: 2020</title>
+      <link>https://voidash.github.io/blog/random/2020/post-class-reflection/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://voidash.github.io/blog/random/2020/post-class-reflection/</guid>
+      <description>this blogpost is part of the assigment given to us on course ENGT 102. Just posting because it reminds me of my shortcomings.
+ Handling the situation: The train is out of the track; Deviated from its journey. Looks like its heading the opposite path. How can i bring it back? I should assess the situation, understand the condition, and make plans according to it but Somehow my brain manages to abstract things out.</description>
+    </item>
+    
+  </channel>
+</rss>
