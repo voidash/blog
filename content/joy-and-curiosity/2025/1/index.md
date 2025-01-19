@@ -3,7 +3,7 @@ title: "Joy and Curiosity #1"
 date: 2025-01-19T19:05:31+05:45
 draft: false
 cover:
-    image: "assets/main.jpg"
+    image: "https://i.imgur.com/kLw9M8j.png"
 ---
 
 Hey, Welcome to \#1 edition of Joy & Curiosity.
