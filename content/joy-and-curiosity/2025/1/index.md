@@ -2,8 +2,7 @@
 title: "Joy and Curiosity #1"
 date: 2025-01-19T19:05:31+05:45
 draft: false
-cover:
-    image: "https://i.imgur.com/kLw9M8j.png"
+cover: image: "https://i.imgur.com/kLw9M8j.png"
 ---
 
 Hey, Welcome to \#1 edition of Joy & Curiosity.
@@ -77,6 +76,17 @@ So if we just extend this idea till 4th last round then we have $6^4 - 5^4$ outc
 But we want to lose at the 4th round. The probability of losing on any round is just $5/6$ and is same for 4th round too so you get $$\frac{5}{6}.(1 - \frac{5^4}{6^4}).Stakes$$
 This is the stakes now available to him. But the answer to our question is hilarious. He just gets $1/6^{th}$ of the stakes no matter at which point he discards his turn. The questions remaining are
 what if the person is asked to discard two rounds randomly. It's not $2/6$ of stakes because if he discards 6 rounds and if there were 100 rounds, he would get whole stake for discarding just 6 rounds.
+
+- There is another cool idea on book "Ten Great Ideas about chance" about "Problem of points". Suppose there are two people with equal skills and they start playing game which concludes in 6 points. Lets suppose the game is **COIN FLIPS**. For each round won, winner gets 1 point. First player has won 5 points and second player has won 3 points. Now, for some reason they can't complete the game, how would you divide the share of their stake fairly?
+  The key idea came from Fermat again, who figured out that if player 1 needs $r$ points to win and player 2 needs $s$ points to win then the game will be completed in $r+s-1$ rounds. So for our question, first player requires 1 point and second player require 3 more points to win, so game will be completed in $3+1-1$ points. Player two will have to win 3 out of 3 rounds. so the odds are $\frac{1}{8}$ and for player 1 the odds are $\frac{7}{8}$. So the share should be divided accordingly.
+  "The question to reader is. Coin toss game, Ten rounds and Six points win... one has no points and the other has 1 point. How do you divide the share fairly?"
+
+- Huygen's gave the real brainf\*ck anyways. Suppose a scenario where two person play a game where one person has three coins on one hand and seven coins on another. One is asked to pick between one of the two hands. This is same thing as if that person has five coins on one hand and five on another. There is no difference when played over and over. This is key concept of **expectation**. When you think about it, it makes sense when you understand variance. 3 and 7 is far from the mean ((3+7)/2) = 5, but the Risk associated is same as gaining or losing 5 coins.
+
+- `Account abstraction (ERC-4337)` is mentioned in [Vitalik's personal user experience](https://vitalik.eth.limo/general/2023/02/28/ux.html.). Account abstraction is what i have been working most time this week. Yes you do need EOA or another equivalent account to sign the User operation. But I think moving towards that makes UX more accessible. Stuff like account recovery doesn't require guardians(bunch of people you select to recover ur acc) to download new app just for sake of being your guardian.
+
+- Went up hiking to **champadevi**. Last week i went to **Jamacho** and it was around $\approx 8kms$. Champadevi was nearly about twice as long but i am proud of walking around $\approx16 km$ .
+  ![Screenshot_20250119_163330_Lose It! 1.jpg](assets/ab70d6511f21827f7dc8ad3fb0df8024409ab43b.jpg "wikilink")
 
 - Ever thought how synchronization primitives such as Mutex restrict only one lock exists at a time. I think [RAII with Guards](https://rust-unofficial.github.io/patterns/patterns/behavioural/RAII.html) is excellent place to start.
   Lets define our mutex first
@@ -185,13 +195,3 @@ fn main() {
 }
 ```
 
-- There is another cool idea on book "Ten Great Ideas about chance" about "Problem of points". Suppose there are two people with equal skills and they start playing game which concludes in 6 points. Lets suppose the game is **COIN FLIPS**. For each round won, winner gets 1 point. First player has won 5 points and second player has won 3 points. Now, for some reason they can't complete the game, how would you divide the share of their stake fairly?
-  The key idea came from Fermat again, who figured out that if player 1 needs $r$ points to win and player 2 needs $s$ points to win then the game will be completed in $r+s-1$ rounds. So for our question, first player requires 1 point and second player require 3 more points to win, so game will be completed in $3+1-1$ points. Player two will have to win 3 out of 3 rounds. so the odds are $\frac{1}{8}$ and for player 1 the odds are $\frac{7}{8}$. So the share should be divided accordingly.
-  "The question to reader is. Coin toss game, Ten rounds and Six points win... one has no points and the other has 1 point. How do you divide the share fairly?"
-
-- Huygen's gave the real brainf\*ck anyways. Suppose a scenario where two person play a game where one person has three coins on one hand and seven coins on another. One is asked to pick between one of the two hands. This is same thing as if that person has five coins on one hand and five on another. There is no difference when played over and over. This is key concept of **expectation**. When you think about it, it makes sense when you understand variance. 3 and 7 is far from the mean ((3+7)/2) = 5, but the Risk associated is same as gaining or losing 5 coins.
-
-- `Account abstraction (ERC-4337)` is mentioned in [Vitalik's personal user experience](https://vitalik.eth.limo/general/2023/02/28/ux.html.). Account abstraction is what i have been working most time this week. Yes you do need EOA or another equivalent account to sign the User operation. But I think moving towards that makes UX more accessible. Stuff like account recovery doesn't require guardians(bunch of people you select to recover ur acc) to download new app just for sake of being your guardian.
-
-- Went up hiking to **champadevi**. Last week i went to **Jamacho** and it was around $\approx 8kms$. Champadevi was nearly about twice as long but i am proud of walking around $\approx16 km$ .
-  ![Screenshot_20250119_163330_Lose It! 1.jpg](assets/ab70d6511f21827f7dc8ad3fb0df8024409ab43b.jpg "wikilink")
