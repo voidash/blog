@@ -58,6 +58,9 @@ Carlos tried his tactics in USA and conned his US partner to setting up his own 
 
     * Nogales, a city split by the U.S.-Mexico border, highlights the contrast between inclusive and extractive institutions. Nogales, Arizona (USA) enjoys a stable democracy, strong rule of law, and an economy that provides higher wages, better infrastructure, and quality public services. In contrast, Nogales, Sonora (Mexico) struggles with weaker governance, corruption, lower wages, and higher crime rates, partly due to cartel influence. Despite sharing the same geography, culture, and history, their economic outcomes differ due to the institutions governing them. While Arizona’s legal and economic systems encourage investment and innovation, Sonora’s extractive institutions hinder long-term growth, reinforcing Why Nations Fail’s argument that prosperity is shaped by political and economic structures, not just geography
 
+-----------------------
+### Misc 
+
 - Sometimes i do ask myself. "Am i capable of loving someone? Or am i worthy of all the love that i get?". Belove Dai had the same dilemma, so i know this is not something unique to my personality. But it has been too long since i have acted due to fear of rejection. I constantly have to remind myself, Rejection is not attack on my self worth. It's the misalignment in the goals, mindset and trajectories of people. But not this time, I will face it like a champ. I will be real to myself. But what does that even mean?  
 - There is this awesome channel called [Nerdforge](https://www.youtube.com/@Nerdforge) ran by couple Martina and Hansi. They are arts and crafts channel. TIL that Hansi was a software engineer before youtube lucked out for them. Well I aspire to have similar arrangements in future. The question remains , where do i search Martina for my channel?
 - Mom's 50th birthday was the best it could have been. Each moment felt good. Thanks for being my source of motivation and my very ability to cut through haze of adulthood to keep marching forward.
@@ -75,4 +78,7 @@ Carlos tried his tactics in USA and conned his US partner to setting up his own 
 |----|----|
 |<br>![20250201_165755.jpg](Joy%20%26%20Curiosity%20%233-media/rojina.jpg "wikilink") |<br>![20250201_165755.jpg](Joy%20%26%20Curiosity%20%233-media/agraraj.jpg "wikilink")|
 
+----------------------- 
+
+[Why am i writing and sharing?](https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/1/)
 
