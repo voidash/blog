@@ -6,7 +6,16 @@
     <description>Recent content in Joy-and-curiosities on AshLogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 23:48:25 +0545</lastBuildDate><atom:link href="https://thapa-ashish.com.np/blog/joy-and-curiosity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Feb 2025 23:48:25 +0545</lastBuildDate><atom:link href="https://thapa-ashish.com.np/blog/joy-and-curiosity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joy &amp; Curiosity #3</title>
+      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/3/</link>
+      <pubDate>Sun, 02 Feb 2025 23:48:25 +0545</pubDate>
+      
+      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/3/</guid>
+      <description>Parse, don&amp;rsquo;t validate is interesting read. &amp;ldquo;Parsing is conversion of unstructured data to slightly structured data&amp;rdquo; . If every computation follows input -&amp;gt; process -&amp;gt; Output model, then parsing is quintessential. Complex systems are not completely linear when you reason the expected initial behavior.,But we can always break it down to reasonable chunks. The state change between various chunks might require its state input to be in exact format where validation kicks in.</description>
+    </item>
+    
     <item>
       <title>Joy &amp; Curiosity #2</title>
       <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/2/</link>
