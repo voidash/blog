@@ -68,6 +68,10 @@ Misc
 - **DeepSeek** was such a big deal because it talks about RL tuning and no other models talked about how they did it.
 
 ### Misc
+- Absolutely loved Attack on Titan. I think this is a must watch for someone looking into captivating, heated story. It will leave you bewildered. Each episode is filled with suspense. For first time there were so many clues but i couldn't foreshadow what was about to happen next. One of my friend shared [this video and i completely overlooked the clue](https://www.youtube.com/watch?v=gNwABGACsfY).There is no true protagonist or antagonist. It's all relative. The kind of emotions i felt when watching the series has been engrained to the point that i find myself looking for merch to tag myself to be enjoyer of this absolute masterpiece.  
+
+![](aot.png)
+
 
 - [Your Product should be Specialist](https://redvelvetzip.substack.com/p/your-product-should-be-a-specialist) is excellent read regarding why products should aim to be highly opinionated, and not neutral. The topic goes on to touch upon how information should be generalized but product should be specialized. As a person multidimensionality is preferred but as a product it should be penetrating enough to convince users to onboard.
 
@@ -89,3 +93,4 @@ Misc
     code_theme = monokai    # syntax highlighting theme
     code_lexer = python     # default code lexer
     log = False      # Set to true to enable logging by default
+
