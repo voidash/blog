@@ -16,3 +16,6 @@ tutorials = "/blog/blogger/:title/"
 [minify]
   disableXML = true
 
+[Params]
+giscusTheme="preferred_color_scheme"
+disableComments=false
