@@ -1,0 +1,265 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>Joy & Curiosity #5 | AshLogs</title>
+<meta name=keywords content>
+<meta name=description content="Modern dictionaries have lost their vividness, unlike Webster&rsquo;s 1913, which embraces the richness of language. Growth happens in cycles, and even Newton needed normal conditions to refine his discoveries, reminding us that dormancy isn&rsquo;t failure. Also little bit on structure of rap music to Rust&rsquo;s out-of-thin-air values, fuzz testing, and AI-driven development tools. It&rsquo;s my week worth of Joy & Curiosity
+Inspired by Joy & Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as &ldquo;Interesting things that happened last week.">
+<meta name=author content>
+<link rel=canonical href=https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/>
+<link crossorigin=anonymous href=/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://thapa-ashish.com.np/blog/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://thapa-ashish.com.np/blog/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://thapa-ashish.com.np/blog/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://thapa-ashish.com.np/blog/apple-touch-icon.png>
+<link rel=mask-icon href=https://thapa-ashish.com.np/blog/safari-pinned-tab.svg>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.92.2">
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script>
+<script>MathJax={tex:{displayMath:[['\\[','\\]'],['$$','$$']],inlineMath:[['$','$']]}}</script>
+<meta property="og:title" content="Joy & Curiosity #5">
+<meta property="og:description" content="Modern dictionaries have lost their vividness, unlike Webster&rsquo;s 1913, which embraces the richness of language. Growth happens in cycles, and even Newton needed normal conditions to refine his discoveries, reminding us that dormancy isn&rsquo;t failure. Also little bit on structure of rap music to Rust&rsquo;s out-of-thin-air values, fuzz testing, and AI-driven development tools. It&rsquo;s my week worth of Joy & Curiosity
+Inspired by Joy & Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as &ldquo;Interesting things that happened last week.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/">
+<meta property="og:image" content="https://thapa-ashish.com.np/blog/cover.png"><meta property="article:section" content="joy-and-curiosity">
+<meta property="article:published_time" content="2025-02-28T02:49:25+05:45">
+<meta property="article:modified_time" content="2025-02-28T02:49:25+05:45">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://thapa-ashish.com.np/blog/cover.png">
+<meta name=twitter:title content="Joy & Curiosity #5">
+<meta name=twitter:description content="Modern dictionaries have lost their vividness, unlike Webster&rsquo;s 1913, which embraces the richness of language. Growth happens in cycles, and even Newton needed normal conditions to refine his discoveries, reminding us that dormancy isn&rsquo;t failure. Also little bit on structure of rap music to Rust&rsquo;s out-of-thin-air values, fuzz testing, and AI-driven development tools. It&rsquo;s my week worth of Joy & Curiosity
+Inspired by Joy & Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as &ldquo;Interesting things that happened last week.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Joy-and-curiosities","item":"https://thapa-ashish.com.np/blog/joy-and-curiosity/"},{"@type":"ListItem","position":3,"name":"Joy \u0026 Curiosity #5","item":"https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Joy \u0026 Curiosity #5","name":"Joy \u0026 Curiosity #5","description":"Modern dictionaries have lost their vividness, unlike Webster\u0026rsquo;s 1913, which embraces the richness of language. Growth happens in cycles, and even Newton needed normal conditions to refine his discoveries, reminding us that dormancy isn\u0026rsquo;t failure. Also little bit on structure of rap music to Rust\u0026rsquo;s out-of-thin-air values, fuzz testing, and AI-driven development tools. It\u0026rsquo;s my week worth of Joy \u0026amp; Curiosity\nInspired by Joy \u0026amp; Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as \u0026ldquo;Interesting things that happened last week.","keywords":[],"articleBody":"Modern dictionaries have lost their vividness, unlike Webster’s 1913, which embraces the richness of language. Growth happens in cycles, and even Newton needed normal conditions to refine his discoveries, reminding us that dormancy isn’t failure. Also little bit on structure of rap music to Rust’s out-of-thin-air values, fuzz testing, and AI-driven development tools. It’s my week worth of Joy \u0026 Curiosity\nInspired by Joy \u0026 Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as “Interesting things that happened last week.”\nYou are using the Wrong Dictionary  English is awfully subtle instrument.\n You are using the wrong dictionary: 26 years, 28 languages and Noah Webster came up with this masterpiece of a dictionary with 70k words. It’s different from engineered modern dictionaries like Oxford and Google search. Modern dictionaries are desiccated little husks of technocratic meaningese, as if words were not more than its coordinates in semantic space. A full team is made to construct generic axiomatic words that strip away the color, the vividness all in name of making it succinct. But the creation worth remembering blooms from labor. Your favorite stories, and poems gives you a sense that there was another mind as alive as you are who labored while sitting at his desk, tussling with own mind to churn out the froth which was lacking in previous iterations. Noah’s dictionary has that very essence. Dictionary is not a utility and it shouldn’t be. The words are delightful. Webster’s 1913 version embraces that very fact and removes the The clamour(noise) of pedantry(concern with minor details)\nHere is one example for the word glisten\nWebster 1913: Glisten: To glisten is to shine with a soft and fitful luster, as eyes suffused with tears, or flowers wet with dew.\nGoogle Dictionary: (of something wet or greasy) shine with a sparkling light.\nThe first example evokes vividness. It provides the analogy to associate glistening with. Wdyt?\nI’m not languishing, I’m dormant  It is a mistake and a misreading of nature to think that you, a living creature, will be flourishing all the days of your life.\n Mental Health is on a spectrum that goes from depression to flourishing…. There is a void between it and it’s called languishing. Not totally burnt out, but also not in full steam, either. Languishing happens when one tries to flourish in terrible conditions like a farmer trying to plant seeds on snow. There are many such analogous external factors that can’t be controlled. But almanac points out the preparedness one can do for the upcoming spring. It’s the idea that things run in cycles.\nAustin Kleon in his blog post shared a piece of history worth sharing related to Isaac Newton and quarantine that fits together growth within languishing period\n The true fact (historian here, this is my period!) is that Newton did theorize gravity while quarantining, but didn’t have library access, and while he was testing the theory he didn’t have some of the constants he needed (sizes, masses), so he tried to work from memory, got one wrong, did all the math, and concluded that he was wrong and the gravity + ellipses thing didn’t work. He stuck it in a drawer. It was only years later when a friend asked him about Kepler’s ellipses that he pulled the old notes back out of the drawer to show the friend, and the friend spotted the error, they redid the math, and then developed the theory of gravity. Together, with full library access, when things were normal after the pandemic. During the pandemic nobody could work properly, including him. So if anyone pushes the claim that we should all be writing brilliant books during this internationally recognized global health epidemic, just tell them Newton too might have developed gravity years earlier if not for his pandemic.\n cool tweet of the week `\nThe element of Rap Music All of a sudden i remembered KTM Grime by Yama Buddha. I wrote some of the lyrics and tried rapping on the beat. One thing lead to another and then i was looking at the difference between bar and a note.\n 20250228_010825Medium.jpeg  Here is my current understanding\n Bar: Musical unit of distance. It’s a container for beats. It’s like a Kilometers marker on the road. You can say 16 bar common beats and it would have 16 * 4 = 64 beats. Beat: It is fundamental pulse of a song. Tempo: It’s beats per minute. The speed of the beat. If the song is 60 BPM then each beat will last 1 second and each bar will last 4 seconds for 4/4 time. 4/4 time means a bar is divided into 4 beats. Notes: It is duration within a beat. It controls the pace within each bar. So if you are playing a piano and something has to be played whole note then for the entire bar one will hold the piano key. There is also half note, quarter note, eighth note , sixteenth note.  What makes a good rap music good?\n Cadence: Musical notes and pauses. Scating: nonsense syllables. Skiddy bop bop Delivery: The voice tones, the emphasis Good Lyrics  Out of Thin Air Values While reading the book Rust Atomics and Locks. There was this weird concept called Out of Thin Air values. This is related to Memory Ordering. It gives us various guarantees about the order in which operations will be performed and seen. This is necessary when we share data between two simultaneously running piece of code. They might read and write at same time when we never wanted the data to be read and write in the first place. To avoid such situation we have various ordering models . Relaxed is one of the simplest memory model whose job is to guarantee that the order seen by one thread should be no different than the other thread. It doesn’t guarantee anything else than that.\nThis is example of a two thread scenario, where we are looking to swap the values in AtomicUsize. The values are initialized as 0. After swap the values should still be 0 . But turns out there is a hypothetical scenario that it might be 37 or 42 or any random value in a relaxed memory model\nuse std::sync::atomic::{AtomicUsize, Ordering}; use std::thread; static X: AtomicUsize = AtomicUsize::new(0); static Y: AtomicUsize = AtomicUsize::new(0); fn main() { let handle1 = thread::spawn(|| { let x = X.load(Ordering::Relaxed); if x == 42 { Y.store(1, Ordering::Relaxed); } }); let handle2 = thread::spawn(|| { let y = Y.load(Ordering::Relaxed); if y == 1 { X.store(42, Ordering::Relaxed); } }); handle1.join().unwrap(); handle2.join().unwrap(); // Possible out-of-thin-air scenario: X could be 42 without any explicit store of 42.  println!(\"X: {}, Y: {}\", X.load(Ordering::Relaxed), Y.load(Ordering::Relaxed)); } The most convincing answer to how out of thin air values can come is given on Rust Atomics and Locks Chapter 3 example clarification by 🐐hax10 and i am just paraphrasing it\nTake the following pseudocode\nx = 0, y = 0 Thread 1: local = x y = local Thread 2: local = y x = local We would intuitively expect both x and y to end up as 0, and regardless of the order in which the threads are executed, any reads from these variables at any point would always return 0.\nHowever, as pointed out above, if we use relaxed memory ordering, the C++/Rust memory model previously allowed the machine to invent numbers out of thin air, i.e. it could compile down to something like this:\nx = 0, y = 0 Thread 1: local = x y = local Thread 2: local = 37 x = local local = y if local != 37: x = local Now this raises a few questions:\n  Why would the compiler do something like this?\n  Why is it allowed?\n  Does it cause problems in theory?\n  The compiler at compile-time or the hardware at run-time is allowed to speculatively return a value for y if it has some reason to believe that a particular value is likely, e.g. based on analysis of past return values. Therefore, this is a type of optimization to potentially speed up the code’s run-time performance.\n  This optimization used to be allowed because it didn’t violate the theoretical model of relaxed memory ordering, which only requires that all threads see the same order of changes to x and y. The “optimized” code doesn’t break the rules since both threads either see 37 or 0.\n  Therefore, we have a “bug” in the theory, because this simple definition of relaxed memory ordering permits us to produce an obviously wrong result, but we also don’t want to throw away the nice, simple definition because it’s still useful in many ways. There hasn’t been any agreement on a replacement definition.\n  Misc   Looked into (cargo-fuzz) libFuzzer and rust-fuzz (AFL-Fuzz). The entire process of mutation-based testing—injecting instrumentation, flipping bits, modifying bytes, and watching as the fuzzer uncovers unique failures—feels almost like black magic. It’s fascinating how randomness, guided by coverage feedback, can systematically break software and expose hidden bugs lurking beneath the surface.\n  QubesOS is security oriented operating system for single user desktop computing. It is based on Xen which is bare metal hypervisor. I thought it’s similar to ProxMox but one is a distro and another is just a microkernel that only does essential tasks for virtualization. In QubesOS each app runs in isolated VM and is based on strong compartmentalization. It’s the epitome of High security personal computer. Also look into IOMMU and VFIO\n  Tried out Trae code editor. Started questioning what value it’s really providing. It’s yet another VSCode fork. But still i can’t overlook the fact that these features really make life easier that is the reason why cursor is 2.6 billion dollars in valuation . So installed avante.nvim. Turns out Gemini API is free right now….. so i can ask quick question without leaving Neovim. The efficacy is not as quite as sonnet 3.7 but serious questions requires some serious documentation exploration too. But i was thinking something along the line of .cursorrules would greatly benefit any project\n  Convert any git repository to simple text digest to feed to llm with Gitingest.\n  Exo can run AI cluster at home with everyday devices.\n  Words of the week   Banal : predicatable\n  Brevity : consiceness\n  clamour : noise\n  pedantry : concern with minor details\n  evananscent: soon to be forgotten, flash\n   ","wordCount":"1733","inLanguage":"en","image":"https://thapa-ashish.com.np/blog/cover.png","datePublished":"2025-02-28T02:49:25+05:45","dateModified":"2025-02-28T02:49:25+05:45","mainEntityOfPage":{"@type":"WebPage","@id":"https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/"},"publisher":{"@type":"Organization","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://thapa-ashish.com.np/blog/favicon.ico"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://thapa-ashish.com.np/blog accesskey=h title="AshLogs (Alt + H)">AshLogs</a>
+<span class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+</span>
+</div>
+<ul id=menu>
+<li>
+<a href=https://thapa-ashish.com.np/blog/archives/ title=Archive>
+<span>Archive</span>
+</a>
+</li>
+<li>
+<a href=https://thapa-ashish.com.np/blog/joy-and-curiosity/ title="Joy and Curiosity">
+<span>Joy and Curiosity</span>
+</a>
+</li>
+<li>
+<a href=https://thapa-ashish.com.np/blog/random/ title=Random>
+<span>Random</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+Joy & Curiosity #5
+</h1>
+<div class=post-meta><span title="2025-02-28 02:49:25 +0545 +0545">February 28, 2025</span>
+</div>
+</header>
+<figure class=entry-cover>
+<img loading=lazy srcset="https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/cover_hu94b717f978549285de7c17bce35a5c07_1352060_360x0_resize_box_3.png 360w ,https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/cover_hu94b717f978549285de7c17bce35a5c07_1352060_480x0_resize_box_3.png 480w ,https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/cover_hu94b717f978549285de7c17bce35a5c07_1352060_720x0_resize_box_3.png 720w ,https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/cover.png 928w" sizes="(min-width: 768px) 720px, 100vw" src=https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/cover.png alt width=928 height=935>
+</figure>
+<div class=post-content><p>Modern dictionaries have lost their vividness, unlike Webster&rsquo;s 1913, which embraces the richness of language. Growth happens in cycles, and even Newton needed normal conditions to refine his discoveries, reminding us that dormancy isn&rsquo;t failure. Also little bit on structure of rap music to Rust&rsquo;s out-of-thin-air values, fuzz testing, and AI-driven development tools. It&rsquo;s my week worth of Joy & Curiosity</p>
+<p>Inspired by Joy & Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as &ldquo;Interesting things that happened last week.&rdquo;</p>
+<h3 id=you-are-using-the-wrong-dictionary>You are using the Wrong Dictionary<a hidden class=anchor aria-hidden=true href=#you-are-using-the-wrong-dictionary>#</a></h3>
+<blockquote>
+<p>English is awfully subtle instrument.</p>
+</blockquote>
+<p><a href=https://jsomers.net/blog/dictionary>You are using the wrong dictionary</a>: 26 years, 28 languages and Noah Webster came up with this masterpiece of a dictionary with 70k words. It&rsquo;s different from engineered modern dictionaries like Oxford and Google search. Modern dictionaries are desiccated little husks of technocratic meaningese, as if words were not more than its coordinates in semantic space. A full team is made to construct generic axiomatic words that strip away the color, the vividness all in name of making it succinct. But the creation worth remembering blooms from labor. Your favorite stories, and poems gives you a sense that there was another mind as alive as you are who labored while sitting at his desk, tussling with own mind to churn out the froth which was lacking in previous iterations. Noah&rsquo;s dictionary has that very essence. Dictionary is not a utility and it shouldn&rsquo;t be. The words are delightful. Webster&rsquo;s 1913 version embraces that very fact and removes the <strong>The clamour(noise) of pedantry(concern with minor details)</strong></p>
+<p>Here is one example for the word <em>glisten</em></p>
+<p>Webster 1913:
+<a href=https://www.websters1913.com/words/Ethos>Glisten</a>: To <code>glisten</code> is to shine with a soft and fitful luster, as eyes suffused with tears, or flowers wet with dew.</p>
+<p>Google Dictionary:
+(of something wet or <a href="https://www.google.com/search?sca_esv=056ac76124f4447b&q=greasy&si=APYL9btfm7lNLuo1yW1KZRdWc6yLPGHkd47bU0efMI7WBeJqwzY0gE46O-B1ZelGfrTZCOH81ATA1dEPiZO4WHPcsaGyxI--AA%3D%3D&expnd=1&sa=X&ved=2ahUKEwium_bCxuSLAxX3nK8BHXh0M5YQyecJegQIQRAP">greasy</a>) shine with a sparkling light.</p>
+<p>The first example evokes vividness. It provides the analogy to associate glistening with. Wdyt?</p>
+<h3 id=im-not-languishing-im-dormant>I&rsquo;m not languishing, I&rsquo;m dormant<a hidden class=anchor aria-hidden=true href=#im-not-languishing-im-dormant>#</a></h3>
+<blockquote>
+<p>It is a mistake and a misreading of nature to think that you, a living creature, will be flourishing all the days of your life.</p>
+</blockquote>
+<p>Mental Health is on a spectrum that goes from depression to flourishing&mldr;. There is a <strong>void</strong> between it and it&rsquo;s called languishing. Not totally burnt out, but also not in full steam, either. Languishing happens when one tries to flourish in terrible conditions like a farmer trying to plant seeds on snow. There are many such analogous external factors that can&rsquo;t be controlled. But <em>almanac</em> points out the preparedness one can do for the upcoming spring. It&rsquo;s the idea that things run in cycles.</p>
+<p><a href=https://austinkleon.com/2021/04/26/im-not-languishing-im-dormant/>Austin Kleon</a> in his blog post shared a piece of history worth sharing related to Isaac Newton and quarantine that fits together growth within languishing period</p>
+<blockquote>
+<p>The true fact (historian here, this is my period!) is that Newton did theorize gravity while quarantining, but didn&rsquo;t have library access, and while he was testing the theory he didn&rsquo;t have some of the constants he needed (sizes, masses), so he tried to work from memory, got one wrong, did all the math, and concluded that he was wrong and the gravity + ellipses thing didn&rsquo;t work. He stuck it in a drawer. It was only years later when a friend asked him about Kepler&rsquo;s ellipses that he pulled the old notes back out of the drawer to show the friend, and the friend spotted the error, they redid the math, and then developed the theory of gravity. Together, with <em>full library access</em>, when things were normal after the pandemic. During the pandemic nobody could work properly, including him. So if anyone pushes the claim that we should all be writing brilliant books during this <em>internationally recognized global health epidemic</em>, just tell them Newton too might have developed gravity years earlier if not for his pandemic.</p>
+</blockquote>
+<h4 id=cool-tweet-of-the-week>cool tweet of the week<a hidden class=anchor aria-hidden=true href=#cool-tweet-of-the-week>#</a></h4>
+<p><img loading=lazy src=./images/53b67d6a6737a0b99ea097ba112946fb34508724.png alt=Next50YearsAgain.png title=wikilink>
+`</p>
+<h3 id=the-element-of-rap-music>The element of Rap Music<a hidden class=anchor aria-hidden=true href=#the-element-of-rap-music>#</a></h3>
+<p>All of a sudden i remembered <a href="https://www.youtube.com/watch?v=7ENDMTFO7Qc">KTM Grime</a> by Yama Buddha. I wrote some of the lyrics and tried rapping on the beat. One thing lead to another and then i was looking at the difference between <code>bar</code> and a <code>note</code>.</p>
+<figure>
+<img src=./images/398ebd690c33136f0819c79c049db08fe4486064.jpeg title=wikilink alt=20250228_010825Medium.jpeg>
+<figcaption aria-hidden=true>20250228_010825Medium.jpeg</figcaption>
+</figure>
+<p>Here is my current understanding</p>
+<ul>
+<li><strong>Bar</strong>: Musical unit of distance. It&rsquo;s a container for beats. It&rsquo;s like a <code>Kilometers</code> marker on the road. You can say 16 bar common beats and it would have <code>16 * 4</code> = 64 beats.</li>
+<li><strong>Beat</strong>: It is fundamental pulse of a song.</li>
+<li><strong>Tempo</strong>: It&rsquo;s beats per minute. The speed of the beat. If the song is 60 BPM then each beat will last 1 second and each bar will last 4 seconds for 4/4 time. 4/4 time means a bar is divided into 4 beats.</li>
+<li><strong>Notes</strong>: It is duration within a beat. It controls the pace within each bar. So if you are playing a piano and something has to be played whole note then for the entire bar one will hold the piano key. There is also half note, quarter note, eighth note , sixteenth note.</li>
+</ul>
+<p>What makes a good rap music good?</p>
+<ul>
+<li><em>Cadence</em>: Musical notes and pauses.</li>
+<li><em>Scating</em>: nonsense syllables. Skiddy bop bop</li>
+<li><em>Delivery</em>: The voice tones, the emphasis</li>
+<li><em>Good Lyrics</em></li>
+</ul>
+<h2 id=out-of-thin-air-values>Out of Thin Air Values<a hidden class=anchor aria-hidden=true href=#out-of-thin-air-values>#</a></h2>
+<p>While reading the book <code>Rust Atomics and Locks</code>. There was this weird concept called Out of Thin Air values. This is related to Memory Ordering. It gives us various guarantees about the order in which operations will be performed and seen. This is necessary when we share data between two simultaneously running piece of code. They might read and write at same time when we never wanted the data to be read and write in the first place. To avoid such situation we have various ordering models . <em><code>Relaxed</code> is one of the simplest memory model whose job is to guarantee that the order seen by one thread should be no different than the other thread. It doesn&rsquo;t guarantee anything else than that.</em><br>
+This is example of a two thread scenario, where we are looking to swap the values in <code>AtomicUsize</code>. The values are initialized as <code>0</code>. After swap the values should still be <code>0</code> . But turns out there is a hypothetical scenario that it might be <code>37</code> or <code>42</code> or any random value in a relaxed memory model</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=color:#66d9ef>use</span> std::sync::atomic::{AtomicUsize, Ordering};
+<span style=color:#66d9ef>use</span> std::thread;
+
+<span style=color:#66d9ef>static</span> X: <span style=color:#a6e22e>AtomicUsize</span> <span style=color:#f92672>=</span> AtomicUsize::new(<span style=color:#ae81ff>0</span>);
+<span style=color:#66d9ef>static</span> Y: <span style=color:#a6e22e>AtomicUsize</span> <span style=color:#f92672>=</span> AtomicUsize::new(<span style=color:#ae81ff>0</span>);
+
+<span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>main</span>() {
+    <span style=color:#66d9ef>let</span> handle1 <span style=color:#f92672>=</span> thread::spawn(<span style=color:#f92672>||</span> {
+        <span style=color:#66d9ef>let</span> x <span style=color:#f92672>=</span> X.load(Ordering::Relaxed);
+        <span style=color:#66d9ef>if</span> x <span style=color:#f92672>==</span> <span style=color:#ae81ff>42</span> {
+            Y.store(<span style=color:#ae81ff>1</span>, Ordering::Relaxed);
+        }
+    });
+
+    <span style=color:#66d9ef>let</span> handle2 <span style=color:#f92672>=</span> thread::spawn(<span style=color:#f92672>||</span> {
+        <span style=color:#66d9ef>let</span> y <span style=color:#f92672>=</span> Y.load(Ordering::Relaxed);
+        <span style=color:#66d9ef>if</span> y <span style=color:#f92672>==</span> <span style=color:#ae81ff>1</span> {
+            X.store(<span style=color:#ae81ff>42</span>, Ordering::Relaxed);
+        }
+    });
+
+    handle1.join().unwrap();
+    handle2.join().unwrap();
+
+    <span style=color:#75715e>// Possible out-of-thin-air scenario: X could be 42 without any explicit store of 42.
+</span><span style=color:#75715e></span>    println!(<span style=color:#e6db74>&#34;X: {}, Y: {}&#34;</span>, X.load(Ordering::Relaxed), Y.load(Ordering::Relaxed));
+}
+</code></pre></div><p>The most convincing answer to how out of thin air values can come is given on <a href=https://users.rust-lang.org/t/rust-atomics-and-locks-chapter-3-example-clarification/93956/4>Rust Atomics and Locks Chapter 3 example clarification</a> by <code>🐐hax10</code> and i am just paraphrasing it</p>
+<p>Take the following pseudocode</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust>x <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, y <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
+
+Thread <span style=color:#ae81ff>1</span>:
+    <span style=color:#a6e22e>local</span> <span style=color:#f92672>=</span> x
+    y <span style=color:#f92672>=</span> local
+
+Thread <span style=color:#ae81ff>2</span>:
+    <span style=color:#a6e22e>local</span> <span style=color:#f92672>=</span> y
+    x <span style=color:#f92672>=</span> local
+</code></pre></div><p>We would intuitively expect both x and y to end up as 0, and regardless of the order in which the threads are executed, any reads from these variables at any point would always return 0.</p>
+<p>However, as pointed out above, if we use relaxed memory ordering, the C++/Rust memory model previously allowed the machine to invent numbers out of thin air, i.e. it could compile down to something like this:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust>x <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, y <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>  
+Thread <span style=color:#ae81ff>1</span>:
+    <span style=color:#a6e22e>local</span> <span style=color:#f92672>=</span> x     
+    y <span style=color:#f92672>=</span> local  
+Thread <span style=color:#ae81ff>2</span>:     
+    <span style=color:#a6e22e>local</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>37</span>     
+    x <span style=color:#f92672>=</span> local     
+    local <span style=color:#f92672>=</span> y     
+    <span style=color:#66d9ef>if</span> local <span style=color:#f92672>!=</span> <span style=color:#ae81ff>37</span>:         
+        <span style=color:#a6e22e>x</span> <span style=color:#f92672>=</span> local
+</code></pre></div><p>Now this raises a few questions:</p>
+<ol>
+<li>
+<p>Why would the compiler do something like this?</p>
+</li>
+<li>
+<p>Why is it allowed?</p>
+</li>
+<li>
+<p>Does it cause problems in theory?</p>
+</li>
+<li>
+<p>The compiler at compile-time or the hardware at run-time is allowed to speculatively return a value for y if it has some reason to believe that a particular value is likely, e.g. based on analysis of past return values. Therefore, this is a type of optimization to potentially speed up the code&rsquo;s run-time performance.</p>
+</li>
+<li>
+<p>This optimization used to be allowed because it didn&rsquo;t violate the theoretical model of relaxed memory ordering, which only requires that all threads see the same order of changes to x and y. The &ldquo;optimized&rdquo; code doesn&rsquo;t break the rules since both threads either see 37 or 0.</p>
+</li>
+<li>
+<p>Therefore, we have a &ldquo;bug&rdquo; in the theory, because this simple definition of relaxed memory ordering permits us to produce an obviously wrong result, but we also don&rsquo;t want to throw away the nice, simple definition because it&rsquo;s still useful in many ways. There hasn&rsquo;t been any agreement on a replacement definition.</p>
+</li>
+</ol>
+<h3 id=misc>Misc<a hidden class=anchor aria-hidden=true href=#misc>#</a></h3>
+<ul>
+<li>
+<p>Looked into <code>(cargo-fuzz) libFuzzer</code> and <code>rust-fuzz (AFL-Fuzz)</code>. The entire process of <strong>mutation-based testing</strong>&mdash;injecting <strong>instrumentation</strong>, flipping bits, modifying bytes, and watching as the fuzzer uncovers unique failures&mdash;feels almost like <strong>black magic</strong>. It&rsquo;s fascinating how randomness, guided by coverage feedback, can systematically <strong>break software</strong> and expose hidden bugs lurking beneath the surface.</p>
+</li>
+<li>
+<p><a href=https://www.qubes-os.org/intro/>QubesOS</a> is security oriented operating system for single user desktop computing. It is based on <a href=https://wiki.xenproject.org/wiki/Xen_Project_Software_Overview>Xen</a> which is bare metal hypervisor. I thought it&rsquo;s similar to <a href=https://www.proxmox.com/en/>ProxMox</a> but one is a distro and another is just a microkernel that only does essential tasks for virtualization. In QubesOS each app runs in isolated VM and is based on strong compartmentalization. It&rsquo;s the epitome of High security personal computer. Also look into IOMMU and VFIO</p>
+</li>
+<li>
+<p>Tried out <a href=https://www.trae.ai/>Trae</a> code editor. Started questioning what value it&rsquo;s really providing. It&rsquo;s yet another VSCode fork. But still i can&rsquo;t overlook the fact that these features really make life easier that is the reason why cursor is <a href=https://techcrunch.com/2024/12/19/in-just-4-months-ai-coding-assistant-cursor-raised-another-100m-at-a-2-5b-valuation-led-by-thrive-sources-say/>2.6 billion dollars</a> in valuation . So installed <a href=https://github.com/yetone/avante.nvim>avante.nvim</a>. Turns out Gemini API is free right now&mldr;.. so i can ask quick question without leaving Neovim. The efficacy is not as quite as sonnet 3.7 but serious questions requires some serious documentation exploration too. But i was thinking something along the line of <a href=https://ghuntley.com/stdlib/>.cursorrules</a> would greatly benefit any project</p>
+</li>
+<li>
+<p>Convert any git repository to simple text digest to feed to llm with <a href=https://gitingest.com/voidash/8085-Emulator>Gitingest</a>.</p>
+</li>
+<li>
+<p><a href=https://github.com/exo-explore/exo>Exo</a> can run AI cluster at home with everyday devices.</p>
+</li>
+</ul>
+<h3 id=words-of-the-week>Words of the week<a hidden class=anchor aria-hidden=true href=#words-of-the-week>#</a></h3>
+<ul>
+<li>
+<p>Banal : predicatable</p>
+</li>
+<li>
+<p>Brevity : consiceness</p>
+</li>
+<li>
+<p>clamour : noise</p>
+</li>
+<li>
+<p>pedantry : concern with minor details</p>
+</li>
+<li>
+<p>evananscent: soon to be forgotten, flash</p>
+</li>
+<li></li>
+</ul>
+</div>
+<footer class=post-footer>
+</footer>
+</article>
+</main>
+<footer class=footer>
+<span>&copy; 2025 <a href=https://thapa-ashish.com.np/blog>AshLogs</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><style>.first{width:100%;display:flex;align-items:center;justify-content:center}.comments{margin:10px;width:60%}</style>
+<div class=first>
+<div class=comments>
+<script src=https://giscus.app/client.js data-repo=voidash/blog data-repo-id=R_kgDOGcYJSw data-category=General data-category-id=DIC_kwDOGcYJS84CnRjF data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=bottom data-theme=preferred_color_scheme data-lang=en data-loading=lazy crossorigin=anonymous async></script>
+</div>
+</div>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>
