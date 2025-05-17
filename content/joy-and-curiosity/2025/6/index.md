@@ -1,7 +1,7 @@
 ---
 title: "Joy & Curiosity #6"
 date: 2025-03-10T02:49:25+05:45
-draft: true
+draft: false
 cover:
     image: "cover.png"
 ---
