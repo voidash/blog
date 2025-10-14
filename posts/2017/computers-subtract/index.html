@@ -8,14 +8,14 @@
 <meta name=description content="Migrated from logicaletter.com
  computers are intricate to understand at the superficial level, but at its core all you will see are logic. Logic makes everything. The invention of transistors allowed us to create logic gates and those logic gates allow computers to add. couple of XOR gates and AND gates can create a full adder. but how do computers subtract? they use something called 1’s complement because computer developers thought “screw this , we are not going to build another circuit for subtraction, rather we will use same circuit board that we use for addition”.">
 <meta name=author content>
-<link rel=canonical href=https://thapa-ashish.com.np/blog/posts/2017/computers-subtract/>
-<link crossorigin=anonymous href=/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
-<script defer crossorigin=anonymous src=/blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://thapa-ashish.com.np/blog/favicon.ico>
-<link rel=icon type=image/png sizes=16x16 href=https://thapa-ashish.com.np/blog/favicon-16x16.png>
-<link rel=icon type=image/png sizes=32x32 href=https://thapa-ashish.com.np/blog/favicon-32x32.png>
-<link rel=apple-touch-icon href=https://thapa-ashish.com.np/blog/apple-touch-icon.png>
-<link rel=mask-icon href=https://thapa-ashish.com.np/blog/safari-pinned-tab.svg>
+<link rel=canonical href=voidash.github.io/blog/posts/2017/computers-subtract/>
+<link crossorigin=anonymous href=/voidash.github.io/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/voidash.github.io/blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=voidash.github.io/blog/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=voidash.github.io/blog/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=voidash.github.io/blog/favicon-32x32.png>
+<link rel=apple-touch-icon href=voidash.github.io/blog/apple-touch-icon.png>
+<link rel=mask-icon href=voidash.github.io/blog/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.92.2">
@@ -28,7 +28,7 @@
 <meta property="og:description" content="Migrated from logicaletter.com
  computers are intricate to understand at the superficial level, but at its core all you will see are logic. Logic makes everything. The invention of transistors allowed us to create logic gates and those logic gates allow computers to add. couple of XOR gates and AND gates can create a full adder. but how do computers subtract? they use something called 1’s complement because computer developers thought “screw this , we are not going to build another circuit for subtraction, rather we will use same circuit board that we use for addition”.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://thapa-ashish.com.np/blog/posts/2017/computers-subtract/">
+<meta property="og:url" content="voidash.github.io/blog/posts/2017/computers-subtract/">
 <meta property="og:image" content="https://media.istockphoto.com/vectors/blueprint-of-building-vector-id510230824?k=20&m=510230824&s=612x612&w=0&h=r7Ja-6GUzK5QVumR79ZhLiXACHRg9oDmbQ_fH5ZGvVk="><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2017-03-12T00:00:00+05:45">
 <meta property="article:modified_time" content="2017-03-12T00:00:00+05:45">
@@ -37,15 +37,15 @@
 <meta name=twitter:title content="9's complement Method: Computers use those?">
 <meta name=twitter:description content="Migrated from logicaletter.com
  computers are intricate to understand at the superficial level, but at its core all you will see are logic. Logic makes everything. The invention of transistors allowed us to create logic gates and those logic gates allow computers to add. couple of XOR gates and AND gates can create a full adder. but how do computers subtract? they use something called 1’s complement because computer developers thought “screw this , we are not going to build another circuit for subtraction, rather we will use same circuit board that we use for addition”.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://thapa-ashish.com.np/blog/posts/"},{"@type":"ListItem","position":3,"name":"9's complement Method: Computers use those?","item":"https://thapa-ashish.com.np/blog/posts/2017/computers-subtract/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"9's complement Method: Computers use those?","name":"9\u0027s complement Method: Computers use those?","description":"Migrated from logicaletter.com\n computers are intricate to understand at the superficial level, but at its core all you will see are logic. Logic makes everything. The invention of transistors allowed us to create logic gates and those logic gates allow computers to add. couple of XOR gates and AND gates can create a full adder. but how do computers subtract? they use something called 1’s complement because computer developers thought “screw this , we are not going to build another circuit for subtraction, rather we will use same circuit board that we use for addition”.","keywords":[],"articleBody":" Migrated from logicaletter.com\n computers are intricate to understand at the superficial level, but at its core all you will see are logic. Logic makes everything. The invention of transistors allowed us to create logic gates and those logic gates allow computers to add. couple of XOR gates and AND gates can create a full adder. but how do computers subtract? they use something called 1’s complement because computer developers thought “screw this , we are not going to build another circuit for subtraction, rather we will use same circuit board that we use for addition”. They achieved their word by using something called complement method.\nso whats complement method?? Here is simple example:  Subtract 233 from 2342.\n its pretty straightforward for us , the answer is 2342-233=2109 but for computer\n Step 1: specify subtrahend and minuend2342 (minuend)  233 (subtrahend)  step 2: if there are not equal number of digits make equal digits on both minuend and subtrahend   2342 (minuend) 0233 (subtrahend)  step 3: find 9’s complement of subtrahend   9's complement = 9999-0233 = 9766 step 4-add 9’s complement of subtrahend and minuend 2342(minuend) +9766(subtrahend) _____ 12108  Step 4: if there are more digits on sum than subtrahend or minuend, in our case 12108. here minuend and subtrahend are 4 digit numbers whereas our sum is 5 digit so its left most digit is carry here in 12108 , 1 is carry so will write it as 1/2108   if there is carry digit then : add the carry digit\n  (1)2108 //here (1) is carry digit so 2108 +1 2109 //answer   NOTE:\nif there is no carry digit then: again find its the complement of its sum and it will be the answer but in negative\n so this is how computer takes your data and subtract it , but computer understand only binary language aka the language of 0 and 1. On next post i will be talking about 1’s complement method\n","wordCount":"320","inLanguage":"en","image":"https://media.istockphoto.com/vectors/blueprint-of-building-vector-id510230824?k=20\u0026m=510230824\u0026s=612x612\u0026w=0\u0026h=r7Ja-6GUzK5QVumR79ZhLiXACHRg9oDmbQ_fH5ZGvVk=","datePublished":"2017-03-12T00:00:00+05:45","dateModified":"2017-03-12T00:00:00+05:45","mainEntityOfPage":{"@type":"WebPage","@id":"https://thapa-ashish.com.np/blog/posts/2017/computers-subtract/"},"publisher":{"@type":"Organization","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://thapa-ashish.com.np/blog/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"voidash.github.io/blog/posts/"},{"@type":"ListItem","position":3,"name":"9's complement Method: Computers use those?","item":"voidash.github.io/blog/posts/2017/computers-subtract/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"9's complement Method: Computers use those?","name":"9\u0027s complement Method: Computers use those?","description":"Migrated from logicaletter.com\n computers are intricate to understand at the superficial level, but at its core all you will see are logic. Logic makes everything. The invention of transistors allowed us to create logic gates and those logic gates allow computers to add. couple of XOR gates and AND gates can create a full adder. but how do computers subtract? they use something called 1’s complement because computer developers thought “screw this , we are not going to build another circuit for subtraction, rather we will use same circuit board that we use for addition”.","keywords":[],"articleBody":" Migrated from logicaletter.com\n computers are intricate to understand at the superficial level, but at its core all you will see are logic. Logic makes everything. The invention of transistors allowed us to create logic gates and those logic gates allow computers to add. couple of XOR gates and AND gates can create a full adder. but how do computers subtract? they use something called 1’s complement because computer developers thought “screw this , we are not going to build another circuit for subtraction, rather we will use same circuit board that we use for addition”. They achieved their word by using something called complement method.\nso whats complement method?? Here is simple example:  Subtract 233 from 2342.\n its pretty straightforward for us , the answer is 2342-233=2109 but for computer\n Step 1: specify subtrahend and minuend2342 (minuend)  233 (subtrahend)  step 2: if there are not equal number of digits make equal digits on both minuend and subtrahend   2342 (minuend) 0233 (subtrahend)  step 3: find 9’s complement of subtrahend   9's complement = 9999-0233 = 9766 step 4-add 9’s complement of subtrahend and minuend 2342(minuend) +9766(subtrahend) _____ 12108  Step 4: if there are more digits on sum than subtrahend or minuend, in our case 12108. here minuend and subtrahend are 4 digit numbers whereas our sum is 5 digit so its left most digit is carry here in 12108 , 1 is carry so will write it as 1/2108   if there is carry digit then : add the carry digit\n  (1)2108 //here (1) is carry digit so 2108 +1 2109 //answer   NOTE:\nif there is no carry digit then: again find its the complement of its sum and it will be the answer but in negative\n so this is how computer takes your data and subtract it , but computer understand only binary language aka the language of 0 and 1. On next post i will be talking about 1’s complement method\n","wordCount":"320","inLanguage":"en","image":"https://media.istockphoto.com/vectors/blueprint-of-building-vector-id510230824?k=20\u0026m=510230824\u0026s=612x612\u0026w=0\u0026h=r7Ja-6GUzK5QVumR79ZhLiXACHRg9oDmbQ_fH5ZGvVk=","datePublished":"2017-03-12T00:00:00+05:45","dateModified":"2017-03-12T00:00:00+05:45","mainEntityOfPage":{"@type":"WebPage","@id":"voidash.github.io/blog/posts/2017/computers-subtract/"},"publisher":{"@type":"Organization","name":"AshLogs","logo":{"@type":"ImageObject","url":"voidash.github.io/blog/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
 <header class=header>
 <nav class=nav>
 <div class=logo>
-<a href=https://thapa-ashish.com.np/blog accesskey=h title="AshLogs (Alt + H)">AshLogs</a>
+<a href=voidash.github.io/blog accesskey=h title="AshLogs (Alt + H)">AshLogs</a>
 <span class=logo-switches>
 <button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
@@ -53,17 +53,17 @@
 </div>
 <ul id=menu>
 <li>
-<a href=https://thapa-ashish.com.np/blog/archives/ title=Archive>
+<a href=voidash.github.io/blog/voidash.github.io/blog/archives/ title=Archive>
 <span>Archive</span>
 </a>
 </li>
 <li>
-<a href=https://thapa-ashish.com.np/blog/joy-and-curiosity/ title="Joy and Curiosity">
+<a href=voidash.github.io/blog/voidash.github.io/blog/joy-and-curiosity/ title="Joy and Curiosity">
 <span>Joy and Curiosity</span>
 </a>
 </li>
 <li>
-<a href=https://thapa-ashish.com.np/blog/random/ title=Random>
+<a href=voidash.github.io/blog/voidash.github.io/blog/random/ title=Random>
 <span>Random</span>
 </a>
 </li>
@@ -134,7 +134,7 @@ again find its the complement of its sum and it will be the answer but in negati
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2025 <a href=https://thapa-ashish.com.np/blog>AshLogs</a></span>
+<span>&copy; 2025 <a href=voidash.github.io/blog>AshLogs</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

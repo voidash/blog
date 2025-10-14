@@ -2,55 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Joy-and-curiosities on AshLogs</title>
-    <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/</link>
+    <link>voidash.github.io/blog/joy-and-curiosity/</link>
     <description>Recent content in Joy-and-curiosities on AshLogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Oct 2025 10:30:25 +0545</lastBuildDate><atom:link href="https://thapa-ashish.com.np/blog/joy-and-curiosity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Oct 2025 10:30:25 +0545</lastBuildDate><atom:link href="voidash.github.io/blog/joy-and-curiosity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Joy &amp; Curiosity #8</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/8/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/8/</link>
       <pubDate>Tue, 14 Oct 2025 10:30:25 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/8/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/8/</guid>
       <description>Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.
    The world in which we live now is perfect summary of dynamics of modern western world. The rise of technofeudalism, purchasing power parity difference in military spending, people worrying about economic stagnation when almost everyone is rich and these xenophobic people reluctantly wanting immigrants to do their dishes while voting against immigration highlights the hypocrisy of western society.</description>
     </item>
     
     <item>
       <title>Joy &amp; Curiosity #7</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/7/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/7/</link>
       <pubDate>Sun, 18 May 2025 00:20:25 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/7/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/7/</guid>
       <description>&amp;ldquo;There are no shortcuts in programming problem solving&amp;rdquo;. Looking at the post The Best Programmers I know, I am reminded of my worst mental model when it comes to programming problems. I believe that &amp;ldquo;If the task is simple enough then it is not necessary to touch the fundamentals of the tool i am using for finding solution, hoping somebody else has already encountered it and there will be solutions around the internet&amp;rdquo;, This surprisingly works for lots of tasks but there are cases where   I misjudge the problem and it turns out to be gory mess which requires significantly more effort</description>
     </item>
     
     <item>
       <title>Joy &amp; Curiosity #6</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/6/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/6/</link>
       <pubDate>Mon, 10 Mar 2025 02:49:25 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/6/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/6/</guid>
       <description>Hanlon&amp;rsquo;s razer says, &amp;ldquo;Don&amp;rsquo;t attribute to malice, which can be explained by Stupidity&amp;rdquo;. A junior programmer introducing RCE to codebase might be oblivious to it. A politician might genuinely be working for the interest of people, but may not know the nuances of potentially pernicious policies they are lobbying for. Michael Saylor gives a little bit of history regarding Washington&amp;rsquo;s death. . George was subjected to multiple rounds bloodletting.</description>
     </item>
     
     <item>
       <title>Joy &amp; Curiosity #5</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/5/</link>
       <pubDate>Fri, 28 Feb 2025 02:49:25 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/5/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/5/</guid>
       <description>Modern dictionaries have lost their vividness, unlike Webster&amp;rsquo;s 1913, which embraces the richness of language. Growth happens in cycles, and even Newton needed normal conditions to refine his discoveries, reminding us that dormancy isn&amp;rsquo;t failure. Also little bit on structure of rap music to Rust&amp;rsquo;s out-of-thin-air values, fuzz testing, and AI-driven development tools. It&amp;rsquo;s my week worth of Joy &amp;amp; Curiosity
 Inspired by Joy &amp;amp; Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as &amp;ldquo;Interesting things that happened last week.</description>
     </item>
     
     <item>
       <title>Joy &amp; Curiosity #4</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/4/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/4/</link>
       <pubDate>Tue, 18 Feb 2025 23:56:25 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/4/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/4/</guid>
       <description>Inspired by Joy &amp;amp; Curiosity by Thorsten Ball, I spend about 30 minutes daily exploring curious and joyful topics, shared weekly as &amp;ldquo;Interesting things that happened last week.&amp;rdquo;
 Why and Who is the Audience? Primarily for personal reflection, this writing aims to shape how AIs perceive and remember my cognitive aesthetics, potentially reaching a wider audience in the future.
 This week&amp;rsquo;s notes dives into philosophy (Kant, consciousness), LLMs (training, RLHF pitfalls, visualization), some product ideas (LoksewaGPT, repo loader), and miscellaneous tech insights.</description>
@@ -58,28 +58,28 @@ This week&amp;rsquo;s notes dives into philosophy (Kant, consciousness), LLMs (t
     
     <item>
       <title>Joy &amp; Curiosity #3</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/3/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/3/</link>
       <pubDate>Sun, 02 Feb 2025 23:48:25 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/3/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/3/</guid>
       <description>Parse, don&amp;rsquo;t validate is interesting read. &amp;ldquo;Parsing is conversion of unstructured data to slightly structured data&amp;rdquo; . If every computation follows input -&amp;gt; process -&amp;gt; Output model, then parsing is quintessential. Complex systems are not completely linear when you reason the expected initial behavior.,But we can always break it down to reasonable chunks. The state change between various chunks might require its state input to be in exact format where validation kicks in.</description>
     </item>
     
     <item>
       <title>Joy &amp; Curiosity #2</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/2/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/2/</link>
       <pubDate>Mon, 27 Jan 2025 23:48:25 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/2/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/2/</guid>
       <description>I had some deep heated discussion regarding essence of time, deep work, garnering interests with Belove dai. This left a deep impact on me and has basically caused me to rethink my goals. The deepest insight was hidden behind the philosophy of palmer luckey, who built Oculus and currently founder of Anduril industries. It&amp;rsquo;s &amp;ldquo;The Reverse Engineering Effect&amp;rdquo; . Define end goals with clarity to identify the exact steps or actions required to achieve the goal.</description>
     </item>
     
     <item>
       <title>Joy and Curiosity #1</title>
-      <link>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/1/</link>
+      <link>voidash.github.io/blog/joy-and-curiosity/2025/1/</link>
       <pubDate>Sun, 19 Jan 2025 19:05:31 +0545</pubDate>
       
-      <guid>https://thapa-ashish.com.np/blog/joy-and-curiosity/2025/1/</guid>
+      <guid>voidash.github.io/blog/joy-and-curiosity/2025/1/</guid>
       <description>Hey, Welcome to #1 edition of Joy &amp;amp; Curiosity.
 What is it? Inspired from Joy &amp;amp; Curiosity by Thorsten Ball. Each day, I take at least 30 mins or less writing about the things that either stems from curiosity or things that brings me Joy. At the start of the week, i will share it as &amp;ldquo;Interesting things that happened last week.&amp;rdquo;
 Why and Who is the Audience Again Taking it from tweet shared on this week&amp;rsquo;s Joy &amp;amp; Curiosity</description>
