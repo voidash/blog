@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>inheritance on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/inheritance/</link>
+    <description>Recent content in inheritance on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/inheritance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Understanding inheritance in java : SuperclassVariable can reference a Subclass Variable</title>
+      <link>https://voidash.github.io/blog/posts/2018/understading-inheritance-java/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2018/understading-inheritance-java/</guid>
+      <description>Understand Java inheritance: how superclass variables reference subclass objects. Learn polymorphism with practical parent-child class examples.</description>
+    </item>
+    
+  </channel>
+</rss>

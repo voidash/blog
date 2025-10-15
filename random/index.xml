@@ -4,8 +4,13 @@
     <title>Randoms on AshLogs</title>
     <link>https://voidash.github.io/blog/random/</link>
     <description>Recent content in Randoms on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
     <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://voidash.github.io/blog/random/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflecting Myself: 2020</title>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>generics on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/generics/</link>
+    <description>Recent content in generics on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/generics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What are Generics in Java</title>
+      <link>https://voidash.github.io/blog/posts/2018/understand-generics-java/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2018/understand-generics-java/</guid>
+      <description>Master Java generics with practical examples. Learn parameterized types, type safety, and how to write reusable code without casting.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nushell on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/nushell/</link>
+    <description>Recent content in Nushell on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 29 Jan 2022 20:07:44 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Nushell</title>
+      <link>https://voidash.github.io/blog/posts/2022/introducing-nushell/</link>
+      <pubDate>Sat, 29 Jan 2022 20:07:44 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2022/introducing-nushell/</guid>
+      <description>Introduction to Nushell, a modern cross-platform shell written in Rust that treats everything as structured data. Compare traditional Bash workflows with Nushell&amp;#39;s intuitive table-based approach.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CLI on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/cli/</link>
+    <description>Recent content in CLI on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 29 Jan 2022 20:07:44 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Nushell</title>
+      <link>https://voidash.github.io/blog/posts/2022/introducing-nushell/</link>
+      <pubDate>Sat, 29 Jan 2022 20:07:44 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2022/introducing-nushell/</guid>
+      <description>Introduction to Nushell, a modern cross-platform shell written in Rust that treats everything as structured data. Compare traditional Bash workflows with Nushell&amp;#39;s intuitive table-based approach.</description>
+    </item>
+    
+    <item>
+      <title>Scripting with Rust: A basic Guide</title>
+      <link>https://voidash.github.io/blog/posts/2021/rust-as-script/</link>
+      <pubDate>Wed, 12 Jan 2022 14:29:05 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2021/rust-as-script/</guid>
+      <description>Learn how to use Rust for scripting tasks. Covers primitive Rust scripts with rustc, cargo-script for dependency management, and practical examples of file operations and testing.</description>
+    </item>
+    
+  </channel>
+</rss>

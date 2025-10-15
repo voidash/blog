@@ -4,9 +4,11 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
 <title>AshLogs</title>
-<meta name=description content>
-<meta name=author content>
+<meta name=keywords content="Rust,web development,Linux,programming,software engineering,tutorials,system administration,networking,PostgreSQL">
+<meta name=description content="A technical blog covering Rust programming, web development, Linux systems, networking, and software engineering. Tutorials, guides, and insights on modern development practices.">
+<meta name=author content="voidash">
 <link rel=canonical href=https://voidash.github.io/blog/>
+<meta name=google-site-verification content="UWc_vqrflPn4rrx6uodIU3uWRIFP4bAhSnG8LWOZNMI">
 <link crossorigin=anonymous href=/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://voidash.github.io/blog/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://voidash.github.io/blog/favicon-16x16.png>
@@ -23,13 +25,14 @@
 </noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script>
 <script>MathJax={tex:{displayMath:[['\\[','\\]'],['$$','$$']],inlineMath:[['$','$']]}}</script>
 <meta property="og:title" content="AshLogs">
-<meta property="og:description" content>
+<meta property="og:description" content="A technical blog covering Rust programming, web development, Linux systems, networking, and software engineering. Tutorials, guides, and insights on modern development practices.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://voidash.github.io/blog/">
-<meta name=twitter:card content="summary">
+<meta property="og:url" content="https://voidash.github.io/blog/"><meta property="og:image" content="https://voidash.github.io/blog/avatar.png">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://voidash.github.io/blog/avatar.png">
 <meta name=twitter:title content="AshLogs">
-<meta name=twitter:description content>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"AshLogs","url":"https://voidash.github.io/blog/","description":"","thumbnailUrl":"https://voidash.github.io/blog/favicon.ico","sameAs":[]}</script>
+<meta name=twitter:description content="A technical blog covering Rust programming, web development, Linux systems, networking, and software engineering. Tutorials, guides, and insights on modern development practices.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Person","name":"AshLogs","url":"https://voidash.github.io/blog/","description":"A technical blog covering Rust programming, web development, Linux systems, networking, and software engineering. Tutorials, guides, and insights on modern development practices.","thumbnailUrl":"https://voidash.github.io/blog/favicon.ico","sameAs":["https://github.com/voidash"]}</script>
 </head>
 <body class=list id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -62,7 +65,23 @@
 </nav>
 </header>
 <main class=main>
-<article class=first-entry>
+<article class="first-entry home-info">
+<header class=entry-header>
+<h1>AshLogs</h1>
+</header>
+<section class=entry-content>
+<p>Technical blog about Rust, web development, and systems programming</p>
+</section>
+<footer class=entry-footer>
+<div class=social-icons>
+<a href=https://github.com/voidash target=_blank rel="noopener noreferrer me" title=Github><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
+</a>
+<a href=https://voidash.github.io/blog/index.xml target=_blank rel="noopener noreferrer me" title=Rss><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+</div>
+</footer>
+</article>
+<article class=post-entry>
 <figure class=entry-cover><img loading=lazy src=https://i.imgur.com/b2g8ybr.png alt>
 </figure>
 <header class=entry-header>
@@ -73,7 +92,7 @@
 <p>Digital ocean allows you to just host the postgres database through it’s postgreSQL management tools but this tutorial is for those who wants to setup on their droplet machine. This assumes that you are on Ubuntu Machine
 Step 1 - Install PostgreSQL sudo apt update sudo apt install postgres postgresql-contrib sudo systemctl start postgresql Step 2 - Posgres Roles and Databases Switch to postgres account and run PSQL prompt sudo -u postgres psql Exit out of the prompt by typing \q postgres=# \q Step 3: Crate new User sudo adduser voidash Step 4 - Create new Role Rolename should be same as user as per convention, same goes for database...</p>
 </section>
-<footer class=entry-footer><span title="2023-12-30 15:44:27 +0545 +0545">December 30, 2023</span></footer>
+<footer class=entry-footer><span title="2023-12-30 15:44:27 +0545 +0545">December 30, 2023</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Postgres on Digital Ocean Droplet" href=https://voidash.github.io/blog/posts/2023/postgres-on-digital-ocean-droplet/></a>
 </article>
 <article class=post-entry>
@@ -89,7 +108,7 @@ Step 1 - Install PostgreSQL sudo apt update sudo apt install postgres postgresql
 Basics of fx-991es Don’t get afraid of fancy words or fancy figures. After all they are the simple chain of concepts hidden behind some characters.
 Chip: nX-u8 Series chip. Manual Here Architecture: Super Harvard CPU Resources and Programming Model : In Gajju We Trust General Architecture Most modern computer architecture follow the Vonn Neumann Architecture....</p>
 </section>
-<footer class=entry-footer><span title="2023-12-29 15:15:25 +0545 +0545">December 29, 2023</span></footer>
+<footer class=entry-footer><span title="2023-12-29 15:15:25 +0545 +0545">December 29, 2023</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Hacking Casio Calculator" href=https://voidash.github.io/blog/posts/2023/hacking-casio-calculator/></a>
 </article>
 <article class=post-entry>
@@ -103,7 +122,7 @@ Chip: nX-u8 Series chip. Manual Here Architecture: Super Harvard CPU Resources a
 <p>A straightforward tutorial on how to setup a Rust based web app with actix and basic templating functionalities. A useless endeavour in post GPT era. I assure you all of this is thought out and planned by a human who wasted some human hours on this.
 The tools for the trade Actix : Web framework for Rust Tera : Templating engine that is one to one copy of Jinja Templating engine Nginx : HTTP Server Cargo....</p>
 </section>
-<footer class=entry-footer><span title="2023-12-14 22:22:33 +0545 +0545">December 14, 2023</span></footer>
+<footer class=entry-footer><span title="2023-12-14 22:22:33 +0545 +0545">December 14, 2023</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Pragmatic way to create a Rust based Web application | From Start to Deployment" href=https://voidash.github.io/blog/posts/2023/rust-webapp/></a>
 </article>
 <article class=post-entry>
@@ -117,7 +136,7 @@ The tools for the trade Actix : Web framework for Rust Tera : Templating engine 
 <p>The Richardson Maturity Model outlines three levels of REST API maturity that make it RESTful. Level 1 is characterized by the use of URI resources and HTTP methods. Level 2 adds the use of HTTP response codes and HATEOAS. Level 3 adds additional hypermedia controls to further enable discoverability and self-description of the API.
 CRUD functions HTTP Verb CRUD POST Create GET Read PUT Update/Replace PATCH Update/Modify DELETE Delete Roy Fielding, co-found of HTTP-server project recognized that the web’s scalability was goverened by a set of key constraints....</p>
 </section>
-<footer class=entry-footer><span title="2023-04-01 20:49:32 +0545 +0545">April 1, 2023</span></footer>
+<footer class=entry-footer><span title="2023-04-01 20:49:32 +0545 +0545">April 1, 2023</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Approaching Rest API Design" href=https://voidash.github.io/blog/posts/2023/rest-api-design-handbook-summary/></a>
 </article>
 <article class=post-entry>
@@ -131,7 +150,7 @@ CRUD functions HTTP Verb CRUD POST Create GET Read PUT Update/Replace PATCH Upda
 <p>Looking through the Google Summer of Code 2023 organizations, I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that’s the viewpoint of the man who gets his half the knowledge from youtube.
 let me clear the distinction between deep web and dark web first. Deep web is indirectly accesible part of the internet....</p>
 </section>
-<footer class=entry-footer><span title="2023-04-01 20:49:32 +0545 +0545">April 1, 2023</span></footer>
+<footer class=entry-footer><span title="2023-04-01 20:49:32 +0545 +0545">April 1, 2023</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Tor Is Beautiful" href=https://voidash.github.io/blog/posts/2023/tor-is-beautiful/></a>
 </article>
 <article class=post-entry>
@@ -150,7 +169,7 @@ And whether or not it is clear to you
 no doubt the universe is unfolding as it should – Max Ehrmann
 Cycling in pokhara: all the eons before me and the time my life conjured...</p>
 </section>
-<footer class=entry-footer><span title="2023-02-02 17:25:45 +0545 +0545">February 2, 2023</span></footer>
+<footer class=entry-footer><span title="2023-02-02 17:25:45 +0545 +0545">February 2, 2023</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Pokhara Memories" href=https://voidash.github.io/blog/posts/2023/mustang-memories/></a>
 </article>
 <article class=post-entry>
@@ -161,7 +180,7 @@ Cycling in pokhara: all the eons before me and the time my life conjured...</p>
 <section class=entry-content>
 <p>At it’s core Shells are just interactive user interface that exposes OS tools and services. This blog is a introduction to Nushell , a cross-platform shell written in Rust . We already have had fair share of shells like Bash, Zsh, Fish etc. Why do we need yet another shell? All existing shells have one thing in common, They all treat as if everything is a text. Enter Nushell where Everything is a structured data....</p>
 </section>
-<footer class=entry-footer><span title="2022-01-29 20:07:44 +0545 +0545">January 29, 2022</span></footer>
+<footer class=entry-footer><span title="2022-01-29 20:07:44 +0545 +0545">January 29, 2022</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Introducing Nushell" href=https://voidash.github.io/blog/posts/2022/introducing-nushell/></a>
 </article>
 <article class=post-entry>
@@ -175,7 +194,7 @@ Cycling in pokhara: all the eons before me and the time my life conjured...</p>
 <p>Computer is required
 Android is modified by manufacturers where they add some applications and games that can’t be uninstalled through application manager. Some of them are straight for promotion and advertisement; I guess that makes the phone a little bit affordable. But wheb users don’t have option to remove the bloatware, is simply unacceptable. Well through ADB(Android Debug Bridge), those bloatwares can be uninstalled for a user level....</p>
 </section>
-<footer class=entry-footer><span title="2022-01-26 10:39:07 +0545 +0545">January 26, 2022</span></footer>
+<footer class=entry-footer><span title="2022-01-26 10:39:07 +0545 +0545">January 26, 2022</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Uninstall System Apps in Android With ADB" href=https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/></a>
 </article>
 <article class=post-entry>
@@ -186,7 +205,7 @@ Android is modified by manufacturers where they add some applications and games 
 <section class=entry-content>
 <p>Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server....</p>
 </section>
-<footer class=entry-footer><span title="2022-01-22 10:52:37 +0545 +0545">January 22, 2022</span></footer>
+<footer class=entry-footer><span title="2022-01-22 10:52:37 +0545 +0545">January 22, 2022</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to How to switch between Nepali and English keyboard layouts in Linux" href=https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/></a>
 </article>
 <article class=post-entry>
@@ -199,7 +218,7 @@ Android is modified by manufacturers where they add some applications and games 
 <section class=entry-content>
 <p>Was Rust built to be a scripting language? the types which you can use for crawling web, extracting links, sending mails etc. Generally stuff that serve single functionality with limited scope. Python fits into that domain perfectly and it is pleasant to write scripts in python. But what about Rust? The language doesn’t even come with a garbage collector, and you might as well fight its borrow checker until it deems your code is memory safe....</p>
 </section>
-<footer class=entry-footer><span title="2022-01-12 14:29:05 +0545 +0545">January 12, 2022</span></footer>
+<footer class=entry-footer><span title="2022-01-12 14:29:05 +0545 +0545">January 12, 2022</span>&nbsp;·&nbsp;voidash</footer>
 <a class=entry-link aria-label="post link to Scripting with Rust: A basic Guide" href=https://voidash.github.io/blog/posts/2021/rust-as-script/></a>
 </article>
 <footer class=page-footer>
@@ -209,7 +228,7 @@ Android is modified by manufacturers where they add some applications and games 
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2025 <a href=https://voidash.github.io/blog/>AshLogs</a></span>
+<span>© 2025 AshLogs. All rights reserved.</span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

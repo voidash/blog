@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>logic gates on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/logic-gates/</link>
+    <description>Recent content in logic gates on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 12 Mar 2017 00:00:00 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/logic-gates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9&#39;s complement Method: Computers use those?</title>
+      <link>https://voidash.github.io/blog/posts/2017/computers-subtract/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2017/computers-subtract/</guid>
+      <description>Learn how computers use 9&amp;#39;s complement method for subtraction using the same circuit as addition. A practical guide to computer arithmetic.</description>
+    </item>
+    
+  </channel>
+</rss>

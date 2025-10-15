@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Assembly on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/assembly/</link>
+    <description>Recent content in Assembly on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 29 Dec 2023 15:15:25 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking Casio Calculator</title>
+      <link>https://voidash.github.io/blog/posts/2023/hacking-casio-calculator/</link>
+      <pubDate>Fri, 29 Dec 2023 15:15:25 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2023/hacking-casio-calculator/</guid>
+      <description>Deep dive into hacking the Casio fx-991es calculator by exploiting buffer overflow vulnerabilities in its nX-u8 chip architecture. Learn about Harvard architecture, memory manipulation, and ROP techniques.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,10 +4,11 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
 <title>How to switch between Nepali and English keyboard layouts in Linux | AshLogs</title>
-<meta name=keywords content>
-<meta name=description content="Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server.">
-<meta name=author content>
+<meta name=keywords content="Linux,Keyboard Layout,Nepali,X11,setxkbmap,i18n,Configuration">
+<meta name=description content="Configure romanized Nepali keyboard layout in Linux using setxkbmap. Works across GNOME, KDE, XFCE desktop environments on X11. Quick setup guide for switching between English and Nepali input.">
+<meta name=author content="voidash">
 <link rel=canonical href=https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/>
+<meta name=google-site-verification content="UWc_vqrflPn4rrx6uodIU3uWRIFP4bAhSnG8LWOZNMI">
 <link crossorigin=anonymous href=/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://voidash.github.io/blog/favicon.ico>
@@ -24,16 +25,17 @@
 </noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script>
 <script>MathJax={tex:{displayMath:[['\\[','\\]'],['$$','$$']],inlineMath:[['$','$']]}}</script>
 <meta property="og:title" content="How to switch between Nepali and English keyboard layouts in Linux">
-<meta property="og:description" content="Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server.">
+<meta property="og:description" content="Configure romanized Nepali keyboard layout in Linux using setxkbmap. Works across GNOME, KDE, XFCE desktop environments on X11. Quick setup guide for switching between English and Nepali input.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/"><meta property="article:section" content="posts">
+<meta property="og:url" content="https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/"><meta property="og:image" content="https://voidash.github.io/blog/avatar.png"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2022-01-22T10:52:37+05:45">
 <meta property="article:modified_time" content="2022-01-22T10:52:37+05:45">
-<meta name=twitter:card content="summary">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://voidash.github.io/blog/avatar.png">
 <meta name=twitter:title content="How to switch between Nepali and English keyboard layouts in Linux">
-<meta name=twitter:description content="Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server.">
+<meta name=twitter:description content="Configure romanized Nepali keyboard layout in Linux using setxkbmap. Works across GNOME, KDE, XFCE desktop environments on X11. Quick setup guide for switching between English and Nepali input.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://voidash.github.io/blog/posts/"},{"@type":"ListItem","position":2,"name":"How to switch between Nepali and English keyboard layouts in Linux","item":"https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to switch between Nepali and English keyboard layouts in Linux","name":"How to switch between Nepali and English keyboard layouts in Linux","description":"Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server.","keywords":[],"articleBody":"Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server. So this tutorial will not work for wayland.\n if you are just looking for answer and in hurry. go to your terminal and paste\n setxkbmap -model pc104 -layout us,np -option grp:alt_shift_toggle\nNow press alt+shift. To make it persistent. Go to your .profile which is usually on ~/.profile and paste the command.\nGnome  Distribution covered: Ubuntu, Fedora, OpenSUSE, Manjaro GNOME Edition etc\n Chnage keyboard layout in GNOME\nXFCE  Distribution covered: Linux Mint XFCE, Endeavour OS etc\n change keyboard layout in XFCE\nKDE  Distribution covered: KDE Neon, OpenSUSE KDE, Fedora KDE, Manjaro KDE etc\n Change keyboard layout in KDE\nUsing setxkbmap setxkbmap sets the keyboard to use layout determined by various options on the command line. If one wants to map their keyboard CAPS_LOCK to ESCthis is the command to go, or if one wants to change the variant of the keyboard from QWERTY to DVORAK, this is the command to look for. If you want to know more type man setxkbmap on your terminal or click the link.\n Here is the list of all the possible configuration option for setxkbmap.\n setxkbmap -model pc104 -layout np,us -option grp:alt_shift_toggle   -model: pc104 is a generic keyboard with 104 characters, find your model on the list of possible configuration option.\n  -layout: here us,np means we are using US layout and Nepali layout. Again for your Country layout code you can look on the link above.\n  -option: grp means switching to another layout and alt_shift_toggle is one of the combination to toggle between nepali and english.\n  ","wordCount":"341","inLanguage":"en","datePublished":"2022-01-22T10:52:37+05:45","dateModified":"2022-01-22T10:52:37+05:45","mainEntityOfPage":{"@type":"WebPage","@id":"https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/"},"publisher":{"@type":"Organization","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://voidash.github.io/blog/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to switch between Nepali and English keyboard layouts in Linux","name":"How to switch between Nepali and English keyboard layouts in Linux","description":"Configure romanized Nepali keyboard layout in Linux using setxkbmap. Works across GNOME, KDE, XFCE desktop environments on X11. Quick setup guide for switching between English and Nepali input.","keywords":["Linux","Keyboard Layout","Nepali","X11","setxkbmap","i18n","Configuration"],"articleBody":"Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server. So this tutorial will not work for wayland.\n if you are just looking for answer and in hurry. go to your terminal and paste\n setxkbmap -model pc104 -layout us,np -option grp:alt_shift_toggle\nNow press alt+shift. To make it persistent. Go to your .profile which is usually on ~/.profile and paste the command.\nGnome  Distribution covered: Ubuntu, Fedora, OpenSUSE, Manjaro GNOME Edition etc\n Chnage keyboard layout in GNOME\nXFCE  Distribution covered: Linux Mint XFCE, Endeavour OS etc\n change keyboard layout in XFCE\nKDE  Distribution covered: KDE Neon, OpenSUSE KDE, Fedora KDE, Manjaro KDE etc\n Change keyboard layout in KDE\nUsing setxkbmap setxkbmap sets the keyboard to use layout determined by various options on the command line. If one wants to map their keyboard CAPS_LOCK to ESCthis is the command to go, or if one wants to change the variant of the keyboard from QWERTY to DVORAK, this is the command to look for. If you want to know more type man setxkbmap on your terminal or click the link.\n Here is the list of all the possible configuration option for setxkbmap.\n setxkbmap -model pc104 -layout np,us -option grp:alt_shift_toggle   -model: pc104 is a generic keyboard with 104 characters, find your model on the list of possible configuration option.\n  -layout: here us,np means we are using US layout and Nepali layout. Again for your Country layout code you can look on the link above.\n  -option: grp means switching to another layout and alt_shift_toggle is one of the combination to toggle between nepali and english.\n  ","wordCount":"341","inLanguage":"en","datePublished":"2022-01-22T10:52:37+05:45","dateModified":"2022-01-22T10:52:37+05:45","author":{"@type":"Person","name":"voidash"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/"},"publisher":{"@type":"Person","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://voidash.github.io/blog/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -71,7 +73,10 @@
 <h1 class=post-title>
 How to switch between Nepali and English keyboard layouts in Linux
 </h1>
-<div class=post-meta><span title="2022-01-22 10:52:37 +0545 +0545">January 22, 2022</span>
+<div class=post-description>
+Configure romanized Nepali keyboard layout in Linux using setxkbmap. Works across GNOME, KDE, XFCE desktop environments on X11. Quick setup guide for switching between English and Nepali input.
+</div>
+<div class=post-meta><span title="2022-01-22 10:52:37 +0545 +0545">January 22, 2022</span>&nbsp;·&nbsp;voidash
 </div>
 </header>
 <div class=post-content><p>Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server. So this tutorial will not work for wayland.</p>
@@ -114,11 +119,20 @@ How to switch between Nepali and English keyboard layouts in Linux
 </ul>
 </div>
 <footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://voidash.github.io/blog/tags/linux/>linux</a></li>
+<li><a href=https://voidash.github.io/blog/tags/keyboard-layout/>Keyboard Layout</a></li>
+<li><a href=https://voidash.github.io/blog/tags/nepali/>Nepali</a></li>
+<li><a href=https://voidash.github.io/blog/tags/x11/>X11</a></li>
+<li><a href=https://voidash.github.io/blog/tags/setxkbmap/>setxkbmap</a></li>
+<li><a href=https://voidash.github.io/blog/tags/i18n/>i18n</a></li>
+<li><a href=https://voidash.github.io/blog/tags/configuration/>Configuration</a></li>
+</ul>
 </footer>
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2025 <a href=https://voidash.github.io/blog/>AshLogs</a></span>
+<span>© 2025 AshLogs. All rights reserved.</span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

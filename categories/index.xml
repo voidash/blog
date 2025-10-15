@@ -4,7 +4,12 @@
     <title>Categories on AshLogs</title>
     <link>https://voidash.github.io/blog/categories/</link>
     <description>Recent content in Categories on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://voidash.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright><atom:link href="https://voidash.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

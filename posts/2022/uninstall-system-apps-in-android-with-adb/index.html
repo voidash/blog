@@ -4,11 +4,11 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
 <title>Uninstall System Apps in Android With ADB | AshLogs</title>
-<meta name=keywords content>
-<meta name=description content="Computer is required
- Android is modified by manufacturers where they add some applications and games that can&rsquo;t be uninstalled through application manager. Some of them are straight for promotion and advertisement; I guess that makes the phone a little bit affordable. But wheb users don&rsquo;t have option to remove the bloatware, is simply unacceptable. Well through ADB(Android Debug Bridge), those bloatwares can be uninstalled for a user level.">
-<meta name=author content>
+<meta name=keywords content="Android,ADB,Mobile,Bloatware,Tutorial,System Administration">
+<meta name=description content="Remove bloatware and system apps from Android devices using ADB (Android Debug Bridge). Step-by-step guide to uninstall unwanted manufacturer apps at user level without root access.">
+<meta name=author content="voidash">
 <link rel=canonical href=https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/>
+<meta name=google-site-verification content="UWc_vqrflPn4rrx6uodIU3uWRIFP4bAhSnG8LWOZNMI">
 <link crossorigin=anonymous href=/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://voidash.github.io/blog/favicon.ico>
@@ -25,8 +25,7 @@
 </noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script>
 <script>MathJax={tex:{displayMath:[['\\[','\\]'],['$$','$$']],inlineMath:[['$','$']]}}</script>
 <meta property="og:title" content="Uninstall System Apps in Android With ADB">
-<meta property="og:description" content="Computer is required
- Android is modified by manufacturers where they add some applications and games that can&rsquo;t be uninstalled through application manager. Some of them are straight for promotion and advertisement; I guess that makes the phone a little bit affordable. But wheb users don&rsquo;t have option to remove the bloatware, is simply unacceptable. Well through ADB(Android Debug Bridge), those bloatwares can be uninstalled for a user level.">
+<meta property="og:description" content="Remove bloatware and system apps from Android devices using ADB (Android Debug Bridge). Step-by-step guide to uninstall unwanted manufacturer apps at user level without root access.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/">
 <meta property="og:image" content="https://i.imgur.com/MZhbQl3.png"><meta property="article:section" content="posts">
@@ -35,10 +34,9 @@
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://i.imgur.com/MZhbQl3.png">
 <meta name=twitter:title content="Uninstall System Apps in Android With ADB">
-<meta name=twitter:description content="Computer is required
- Android is modified by manufacturers where they add some applications and games that can&rsquo;t be uninstalled through application manager. Some of them are straight for promotion and advertisement; I guess that makes the phone a little bit affordable. But wheb users don&rsquo;t have option to remove the bloatware, is simply unacceptable. Well through ADB(Android Debug Bridge), those bloatwares can be uninstalled for a user level.">
+<meta name=twitter:description content="Remove bloatware and system apps from Android devices using ADB (Android Debug Bridge). Step-by-step guide to uninstall unwanted manufacturer apps at user level without root access.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://voidash.github.io/blog/posts/"},{"@type":"ListItem","position":2,"name":"Uninstall System Apps in Android With ADB","item":"https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Uninstall System Apps in Android With ADB","name":"Uninstall System Apps in Android With ADB","description":"Computer is required\n Android is modified by manufacturers where they add some applications and games that can\u0026rsquo;t be uninstalled through application manager. Some of them are straight for promotion and advertisement; I guess that makes the phone a little bit affordable. But wheb users don\u0026rsquo;t have option to remove the bloatware, is simply unacceptable. Well through ADB(Android Debug Bridge), those bloatwares can be uninstalled for a user level.","keywords":[],"articleBody":" Computer is required\n Android is modified by manufacturers where they add some applications and games that can’t be uninstalled through application manager. Some of them are straight for promotion and advertisement; I guess that makes the phone a little bit affordable. But wheb users don’t have option to remove the bloatware, is simply unacceptable. Well through ADB(Android Debug Bridge), those bloatwares can be uninstalled for a user level.\nFirst enable Developer settings in your phone. Then turn on USB debugging mode, On most newer devices a notification will popup about the risks of running the system in Debugging mode but you can just ignore it for now.\nOnce that is done, download android-tools on your computer.\n for windows, Link\n  for linux,\n Ubuntu: sudo apt install android-tools-adb\n  Arch : sudo pacman -Sy android-tools\n   Connect your android device to the computer Head to your terminal type adb devices, a popup will appear on the phone that asks whether to trust the device or not. Press allow if your correctly followed the instruction then the output should contain a device attached  ❯ adb devices List of devices attached 20ab686f\tdevice  now type adb shell, a shell should be spawned through which you can interact with your phone.  ❯ adb shell 1906:/ $  to interact with the packages/applications android provides a tool called pm . First list all the packages with pm list packages  1906:/ $ pm list packages package:com.f1soft.esewa package:com.android.cts.priv.ctsshim package:com.vivo.weather.provider package:com.google.android.youtube package:com.android.internal.display.cutout.emulation.corner package:com.google.android.ext.services package:com.atomgame.gunwar package:com.google.android.networkstack.overlay.vivo package:com.android.internal.display.cutout.emulation.double package:com.android.providers.telephony  To search for the package you want to remove use pm list packages | {application_name}. here application name can be anything, for the purpose of demonstration let’s suppose it’s YouTube.  1906:/ $ pm list packages| grep youtube package:com.google.android.youtube  The portion we need starts with a colon, i.e com.google.android.youtube. Now remove the package with this command.  pm uninstall -k --user 0 {PackageName} 1906:/ $ pm uninstall -k --user 0 com.google.android.youtube Success After you finish uninstalling, type exit and then disable android debugging. So this is how you uninstall bloatware from your device.\n","wordCount":"336","inLanguage":"en","image":"https://i.imgur.com/MZhbQl3.png","datePublished":"2022-01-26T10:39:07+05:45","dateModified":"2022-01-26T10:39:07+05:45","mainEntityOfPage":{"@type":"WebPage","@id":"https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/"},"publisher":{"@type":"Organization","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://voidash.github.io/blog/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Uninstall System Apps in Android With ADB","name":"Uninstall System Apps in Android With ADB","description":"Remove bloatware and system apps from Android devices using ADB (Android Debug Bridge). Step-by-step guide to uninstall unwanted manufacturer apps at user level without root access.","keywords":["Android","ADB","Mobile","Bloatware","Tutorial","System Administration"],"articleBody":" Computer is required\n Android is modified by manufacturers where they add some applications and games that can’t be uninstalled through application manager. Some of them are straight for promotion and advertisement; I guess that makes the phone a little bit affordable. But wheb users don’t have option to remove the bloatware, is simply unacceptable. Well through ADB(Android Debug Bridge), those bloatwares can be uninstalled for a user level.\nFirst enable Developer settings in your phone. Then turn on USB debugging mode, On most newer devices a notification will popup about the risks of running the system in Debugging mode but you can just ignore it for now.\nOnce that is done, download android-tools on your computer.\n for windows, Link\n  for linux,\n Ubuntu: sudo apt install android-tools-adb\n  Arch : sudo pacman -Sy android-tools\n   Connect your android device to the computer Head to your terminal type adb devices, a popup will appear on the phone that asks whether to trust the device or not. Press allow if your correctly followed the instruction then the output should contain a device attached  ❯ adb devices List of devices attached 20ab686f\tdevice  now type adb shell, a shell should be spawned through which you can interact with your phone.  ❯ adb shell 1906:/ $  to interact with the packages/applications android provides a tool called pm . First list all the packages with pm list packages  1906:/ $ pm list packages package:com.f1soft.esewa package:com.android.cts.priv.ctsshim package:com.vivo.weather.provider package:com.google.android.youtube package:com.android.internal.display.cutout.emulation.corner package:com.google.android.ext.services package:com.atomgame.gunwar package:com.google.android.networkstack.overlay.vivo package:com.android.internal.display.cutout.emulation.double package:com.android.providers.telephony  To search for the package you want to remove use pm list packages | {application_name}. here application name can be anything, for the purpose of demonstration let’s suppose it’s YouTube.  1906:/ $ pm list packages| grep youtube package:com.google.android.youtube  The portion we need starts with a colon, i.e com.google.android.youtube. Now remove the package with this command.  pm uninstall -k --user 0 {PackageName} 1906:/ $ pm uninstall -k --user 0 com.google.android.youtube Success After you finish uninstalling, type exit and then disable android debugging. So this is how you uninstall bloatware from your device.\n","wordCount":"336","inLanguage":"en","image":"https://i.imgur.com/MZhbQl3.png","datePublished":"2022-01-26T10:39:07+05:45","dateModified":"2022-01-26T10:39:07+05:45","author":{"@type":"Person","name":"voidash"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/"},"publisher":{"@type":"Person","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://voidash.github.io/blog/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -76,7 +74,10 @@
 <h1 class=post-title>
 Uninstall System Apps in Android With ADB
 </h1>
-<div class=post-meta><span title="2022-01-26 10:39:07 +0545 +0545">January 26, 2022</span>
+<div class=post-description>
+Remove bloatware and system apps from Android devices using ADB (Android Debug Bridge). Step-by-step guide to uninstall unwanted manufacturer apps at user level without root access.
+</div>
+<div class=post-meta><span title="2022-01-26 10:39:07 +0545 +0545">January 26, 2022</span>&nbsp;·&nbsp;voidash
 </div>
 </header>
 <figure class=entry-cover><img loading=lazy src=https://i.imgur.com/MZhbQl3.png alt>
@@ -144,11 +145,19 @@ Success
 </code></pre><p>After you finish uninstalling, type <code>exit</code> and then disable android debugging. So this is how you uninstall bloatware from your device.</p>
 </div>
 <footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://voidash.github.io/blog/tags/android/>Android</a></li>
+<li><a href=https://voidash.github.io/blog/tags/adb/>ADB</a></li>
+<li><a href=https://voidash.github.io/blog/tags/mobile/>Mobile</a></li>
+<li><a href=https://voidash.github.io/blog/tags/bloatware/>Bloatware</a></li>
+<li><a href=https://voidash.github.io/blog/tags/tutorial/>Tutorial</a></li>
+<li><a href=https://voidash.github.io/blog/tags/system-administration/>system administration</a></li>
+</ul>
 </footer>
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2025 <a href=https://voidash.github.io/blog/>AshLogs</a></span>
+<span>© 2025 AshLogs. All rights reserved.</span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

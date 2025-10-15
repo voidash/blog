@@ -4,11 +4,11 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
 <title>Tor Is Beautiful | AshLogs</title>
-<meta name=keywords content>
-<meta name=description content="Looking through the Google Summer of Code 2023 organizations, I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that&rsquo;s the viewpoint of the man who gets his half the knowledge from youtube.
-let me clear the distinction between deep web and dark web first. Deep web is indirectly accesible part of the internet.">
-<meta name=author content>
+<meta name=keywords content="Tor,Privacy,Security,Networking,Cryptography,Anonymity,Dark Web">
+<meta name=description content="Exploring the Tor network architecture and its role in internet privacy. Learn how onion routing, relay circuits, and layered encryption protect anonymity while enabling freedom of information.">
+<meta name=author content="voidash">
 <link rel=canonical href=https://voidash.github.io/blog/posts/2023/tor-is-beautiful/>
+<meta name=google-site-verification content="UWc_vqrflPn4rrx6uodIU3uWRIFP4bAhSnG8LWOZNMI">
 <link crossorigin=anonymous href=/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://voidash.github.io/blog/favicon.ico>
@@ -25,8 +25,7 @@ let me clear the distinction between deep web and dark web first. Deep web is in
 </noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script>
 <script>MathJax={tex:{displayMath:[['\\[','\\]'],['$$','$$']],inlineMath:[['$','$']]}}</script>
 <meta property="og:title" content="Tor Is Beautiful">
-<meta property="og:description" content="Looking through the Google Summer of Code 2023 organizations, I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that&rsquo;s the viewpoint of the man who gets his half the knowledge from youtube.
-let me clear the distinction between deep web and dark web first. Deep web is indirectly accesible part of the internet.">
+<meta property="og:description" content="Exploring the Tor network architecture and its role in internet privacy. Learn how onion routing, relay circuits, and layered encryption protect anonymity while enabling freedom of information.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://voidash.github.io/blog/posts/2023/tor-is-beautiful/">
 <meta property="og:image" content="https://i.imgur.com/THkHe2l.png"><meta property="article:section" content="posts">
@@ -35,10 +34,9 @@ let me clear the distinction between deep web and dark web first. Deep web is in
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://i.imgur.com/THkHe2l.png">
 <meta name=twitter:title content="Tor Is Beautiful">
-<meta name=twitter:description content="Looking through the Google Summer of Code 2023 organizations, I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that&rsquo;s the viewpoint of the man who gets his half the knowledge from youtube.
-let me clear the distinction between deep web and dark web first. Deep web is indirectly accesible part of the internet.">
+<meta name=twitter:description content="Exploring the Tor network architecture and its role in internet privacy. Learn how onion routing, relay circuits, and layered encryption protect anonymity while enabling freedom of information.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://voidash.github.io/blog/posts/"},{"@type":"ListItem","position":2,"name":"Tor Is Beautiful","item":"https://voidash.github.io/blog/posts/2023/tor-is-beautiful/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Tor Is Beautiful","name":"Tor Is Beautiful","description":"Looking through the Google Summer of Code 2023 organizations, I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that\u0026rsquo;s the viewpoint of the man who gets his half the knowledge from youtube.\nlet me clear the distinction between deep web and dark web first. Deep web is indirectly accesible part of the internet.","keywords":[],"articleBody":"Looking through the Google Summer of Code 2023 organizations, I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that’s the viewpoint of the man who gets his half the knowledge from youtube.\nlet me clear the distinction between deep web and dark web first. Deep web is indirectly accesible part of the internet. Search engine don’t go there. Now why don’t search engine look there? Because of robots.txt or there might be some form of authentication required to view the content and so on. Now Dark web is part of the web that requires Tor Browser.\nSo what is Tor? Get this, The project was part of US naval research lab. In 2002 the project was launched as non profit organization dedicated to developing and maintaining the Tor software. So Tor, it’s not basically a browser that allows you to view .onion links or just another VPN meant for staying anonymous. It is a transparent protocol run on the network built around by tor volunteers. This entire thing is a collaboration at global scale by the people who believe in freedom of speech, and freedom of information.\nSo when you open up the tor browser and connect to tor service. A tor circuit will be created, which is fancy way of saying your computer will be connected bunch of other computers called relays before touching the internet.\nfig: Tor Circuit\nRelay is basically a server running tor server software. There are about 6800 relays run on various parts of the world.\n Guard relay needs to be reliable. This is the first entry point to tor network. Middle relay : The existence of middle relay makes pinpointing the client very hard. Exit relay : These are the relays facing the internet. The FBI raids happen here. You have to respect these people who are running exit relay because they might face frequent raids.  What’s behind that onion logo that Tor uses? Once you are connected to tor circuit. You will have the public keys for the guard, middle and exit relays. So you encrypt with them\nencrypt_with_guard_relay_keys( encrypt_with_middle_relay_keys( encrypt_with_exit_relay_keys(original_data) ) ); If you know a thing or two about public-key cryptography then, the things encrypted with public keys can only be decrypted by private keys. So guard relay gets the encrypted data,decrypts it and sends to middle relay. Guard relay doesn’t know what the data is as it is still encrypted and can only be decrypted by middle relay. Turn of Middle relay who also decrypts it. Still the data is encrypted….. Time for it to send to exit relay. Exit relay finally decrypts it to send it to internet. Exit relay has the original packet the client sent and it gets forwarded to internet.\nIt’s like peeling the layer of onion……. ","wordCount":"483","inLanguage":"en","image":"https://i.imgur.com/THkHe2l.png","datePublished":"2023-04-01T20:49:32+05:45","dateModified":"2023-04-01T20:49:32+05:45","mainEntityOfPage":{"@type":"WebPage","@id":"https://voidash.github.io/blog/posts/2023/tor-is-beautiful/"},"publisher":{"@type":"Organization","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://voidash.github.io/blog/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Tor Is Beautiful","name":"Tor Is Beautiful","description":"Exploring the Tor network architecture and its role in internet privacy. Learn how onion routing, relay circuits, and layered encryption protect anonymity while enabling freedom of information.","keywords":["Tor","Privacy","Security","Networking","Cryptography","Anonymity","Dark Web"],"articleBody":"Looking through the Google Summer of Code 2023 organizations, I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that’s the viewpoint of the man who gets his half the knowledge from youtube.\nlet me clear the distinction between deep web and dark web first. Deep web is indirectly accesible part of the internet. Search engine don’t go there. Now why don’t search engine look there? Because of robots.txt or there might be some form of authentication required to view the content and so on. Now Dark web is part of the web that requires Tor Browser.\nSo what is Tor? Get this, The project was part of US naval research lab. In 2002 the project was launched as non profit organization dedicated to developing and maintaining the Tor software. So Tor, it’s not basically a browser that allows you to view .onion links or just another VPN meant for staying anonymous. It is a transparent protocol run on the network built around by tor volunteers. This entire thing is a collaboration at global scale by the people who believe in freedom of speech, and freedom of information.\nSo when you open up the tor browser and connect to tor service. A tor circuit will be created, which is fancy way of saying your computer will be connected bunch of other computers called relays before touching the internet.\nfig: Tor Circuit\nRelay is basically a server running tor server software. There are about 6800 relays run on various parts of the world.\n Guard relay needs to be reliable. This is the first entry point to tor network. Middle relay : The existence of middle relay makes pinpointing the client very hard. Exit relay : These are the relays facing the internet. The FBI raids happen here. You have to respect these people who are running exit relay because they might face frequent raids.  What’s behind that onion logo that Tor uses? Once you are connected to tor circuit. You will have the public keys for the guard, middle and exit relays. So you encrypt with them\nencrypt_with_guard_relay_keys( encrypt_with_middle_relay_keys( encrypt_with_exit_relay_keys(original_data) ) ); If you know a thing or two about public-key cryptography then, the things encrypted with public keys can only be decrypted by private keys. So guard relay gets the encrypted data,decrypts it and sends to middle relay. Guard relay doesn’t know what the data is as it is still encrypted and can only be decrypted by middle relay. Turn of Middle relay who also decrypts it. Still the data is encrypted….. Time for it to send to exit relay. Exit relay finally decrypts it to send it to internet. Exit relay has the original packet the client sent and it gets forwarded to internet.\nIt’s like peeling the layer of onion……. ","wordCount":"483","inLanguage":"en","image":"https://i.imgur.com/THkHe2l.png","datePublished":"2023-04-01T20:49:32+05:45","dateModified":"2023-04-01T20:49:32+05:45","author":{"@type":"Person","name":"voidash"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://voidash.github.io/blog/posts/2023/tor-is-beautiful/"},"publisher":{"@type":"Person","name":"AshLogs","logo":{"@type":"ImageObject","url":"https://voidash.github.io/blog/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -76,7 +74,10 @@ let me clear the distinction between deep web and dark web first. Deep web is in
 <h1 class=post-title>
 Tor Is Beautiful
 </h1>
-<div class=post-meta><span title="2023-04-01 20:49:32 +0545 +0545">April 1, 2023</span>
+<div class=post-description>
+Exploring the Tor network architecture and its role in internet privacy. Learn how onion routing, relay circuits, and layered encryption protect anonymity while enabling freedom of information.
+</div>
+<div class=post-meta><span title="2023-04-01 20:49:32 +0545 +0545">April 1, 2023</span>&nbsp;·&nbsp;voidash
 </div>
 </header>
 <figure class=entry-cover><img loading=lazy src=https://i.imgur.com/THkHe2l.png alt>
@@ -106,11 +107,20 @@ What&rsquo;s behind that onion logo that Tor uses? Once you are connected to tor
 </p>
 </div>
 <footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://voidash.github.io/blog/tags/tor/>Tor</a></li>
+<li><a href=https://voidash.github.io/blog/tags/privacy/>Privacy</a></li>
+<li><a href=https://voidash.github.io/blog/tags/security/>Security</a></li>
+<li><a href=https://voidash.github.io/blog/tags/networking/>Networking</a></li>
+<li><a href=https://voidash.github.io/blog/tags/cryptography/>Cryptography</a></li>
+<li><a href=https://voidash.github.io/blog/tags/anonymity/>Anonymity</a></li>
+<li><a href=https://voidash.github.io/blog/tags/dark-web/>Dark Web</a></li>
+</ul>
 </footer>
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2025 <a href=https://voidash.github.io/blog/>AshLogs</a></span>
+<span>© 2025 AshLogs. All rights reserved.</span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

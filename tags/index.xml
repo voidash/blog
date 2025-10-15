@@ -4,7 +4,1012 @@
     <title>Tags on AshLogs</title>
     <link>https://voidash.github.io/blog/tags/</link>
     <description>Recent content in Tags on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://voidash.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 30 Dec 2023 15:44:27 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database</title>
+      <link>https://voidash.github.io/blog/tags/database/</link>
+      <pubDate>Sat, 30 Dec 2023 15:44:27 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Ocean</title>
+      <link>https://voidash.github.io/blog/tags/digital-ocean/</link>
+      <pubDate>Sat, 30 Dec 2023 15:44:27 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/digital-ocean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://voidash.github.io/blog/tags/linux/</link>
+      <pubDate>Sat, 30 Dec 2023 15:44:27 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://voidash.github.io/blog/tags/postgresql/</link>
+      <pubDate>Sat, 30 Dec 2023 15:44:27 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>system administration</title>
+      <link>https://voidash.github.io/blog/tags/system-administration/</link>
+      <pubDate>Sat, 30 Dec 2023 15:44:27 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/system-administration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://voidash.github.io/blog/tags/ubuntu/</link>
+      <pubDate>Sat, 30 Dec 2023 15:44:27 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assembly</title>
+      <link>https://voidash.github.io/blog/tags/assembly/</link>
+      <pubDate>Fri, 29 Dec 2023 15:15:25 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/assembly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Buffer Overflow</title>
+      <link>https://voidash.github.io/blog/tags/buffer-overflow/</link>
+      <pubDate>Fri, 29 Dec 2023 15:15:25 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/buffer-overflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Casio</title>
+      <link>https://voidash.github.io/blog/tags/casio/</link>
+      <pubDate>Fri, 29 Dec 2023 15:15:25 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/casio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer architecture</title>
+      <link>https://voidash.github.io/blog/tags/computer-architecture/</link>
+      <pubDate>Fri, 29 Dec 2023 15:15:25 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/computer-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware Hacking</title>
+      <link>https://voidash.github.io/blog/tags/hardware-hacking/</link>
+      <pubDate>Fri, 29 Dec 2023 15:15:25 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/hardware-hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://voidash.github.io/blog/tags/security/</link>
+      <pubDate>Fri, 29 Dec 2023 15:15:25 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Actix</title>
+      <link>https://voidash.github.io/blog/tags/actix/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/actix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deployment</title>
+      <link>https://voidash.github.io/blog/tags/deployment/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://voidash.github.io/blog/tags/nginx/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>https://voidash.github.io/blog/tags/rust/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tera</title>
+      <link>https://voidash.github.io/blog/tags/tera/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/tera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://voidash.github.io/blog/tags/tutorial/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>https://voidash.github.io/blog/tags/web-development/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anonymity</title>
+      <link>https://voidash.github.io/blog/tags/anonymity/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/anonymity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API Design</title>
+      <link>https://voidash.github.io/blog/tags/api-design/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/api-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Practices</title>
+      <link>https://voidash.github.io/blog/tags/best-practices/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptography</title>
+      <link>https://voidash.github.io/blog/tags/cryptography/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dark Web</title>
+      <link>https://voidash.github.io/blog/tags/dark-web/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/dark-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTTP</title>
+      <link>https://voidash.github.io/blog/tags/http/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>https://voidash.github.io/blog/tags/networking/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://voidash.github.io/blog/tags/privacy/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST API</title>
+      <link>https://voidash.github.io/blog/tags/rest-api/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/rest-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Architecture</title>
+      <link>https://voidash.github.io/blog/tags/software-architecture/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/software-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tor</title>
+      <link>https://voidash.github.io/blog/tags/tor/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/tor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memories</title>
+      <link>https://voidash.github.io/blog/tags/memories/</link>
+      <pubDate>Thu, 02 Feb 2023 17:25:45 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/memories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mustang</title>
+      <link>https://voidash.github.io/blog/tags/mustang/</link>
+      <pubDate>Thu, 02 Feb 2023 17:25:45 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/mustang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nepal</title>
+      <link>https://voidash.github.io/blog/tags/nepal/</link>
+      <pubDate>Thu, 02 Feb 2023 17:25:45 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/nepal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://voidash.github.io/blog/tags/personal/</link>
+      <pubDate>Thu, 02 Feb 2023 17:25:45 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poetry</title>
+      <link>https://voidash.github.io/blog/tags/poetry/</link>
+      <pubDate>Thu, 02 Feb 2023 17:25:45 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pokhara</title>
+      <link>https://voidash.github.io/blog/tags/pokhara/</link>
+      <pubDate>Thu, 02 Feb 2023 17:25:45 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/pokhara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://voidash.github.io/blog/tags/travel/</link>
+      <pubDate>Thu, 02 Feb 2023 17:25:45 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLI</title>
+      <link>https://voidash.github.io/blog/tags/cli/</link>
+      <pubDate>Sat, 29 Jan 2022 20:07:44 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nushell</title>
+      <link>https://voidash.github.io/blog/tags/nushell/</link>
+      <pubDate>Sat, 29 Jan 2022 20:07:44 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/nushell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://voidash.github.io/blog/tags/shell/</link>
+      <pubDate>Sat, 29 Jan 2022 20:07:44 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structured Data</title>
+      <link>https://voidash.github.io/blog/tags/structured-data/</link>
+      <pubDate>Sat, 29 Jan 2022 20:07:44 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/structured-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://voidash.github.io/blog/tags/terminal/</link>
+      <pubDate>Sat, 29 Jan 2022 20:07:44 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ADB</title>
+      <link>https://voidash.github.io/blog/tags/adb/</link>
+      <pubDate>Wed, 26 Jan 2022 10:39:07 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/adb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://voidash.github.io/blog/tags/android/</link>
+      <pubDate>Wed, 26 Jan 2022 10:39:07 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bloatware</title>
+      <link>https://voidash.github.io/blog/tags/bloatware/</link>
+      <pubDate>Wed, 26 Jan 2022 10:39:07 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/bloatware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://voidash.github.io/blog/tags/mobile/</link>
+      <pubDate>Wed, 26 Jan 2022 10:39:07 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://voidash.github.io/blog/tags/configuration/</link>
+      <pubDate>Sat, 22 Jan 2022 10:52:37 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i18n</title>
+      <link>https://voidash.github.io/blog/tags/i18n/</link>
+      <pubDate>Sat, 22 Jan 2022 10:52:37 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/i18n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keyboard Layout</title>
+      <link>https://voidash.github.io/blog/tags/keyboard-layout/</link>
+      <pubDate>Sat, 22 Jan 2022 10:52:37 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/keyboard-layout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nepali</title>
+      <link>https://voidash.github.io/blog/tags/nepali/</link>
+      <pubDate>Sat, 22 Jan 2022 10:52:37 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/nepali/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>setxkbmap</title>
+      <link>https://voidash.github.io/blog/tags/setxkbmap/</link>
+      <pubDate>Sat, 22 Jan 2022 10:52:37 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/setxkbmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X11</title>
+      <link>https://voidash.github.io/blog/tags/x11/</link>
+      <pubDate>Sat, 22 Jan 2022 10:52:37 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/x11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cargo</title>
+      <link>https://voidash.github.io/blog/tags/cargo/</link>
+      <pubDate>Wed, 12 Jan 2022 14:29:05 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/cargo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://voidash.github.io/blog/tags/programming/</link>
+      <pubDate>Wed, 12 Jan 2022 14:29:05 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripting</title>
+      <link>https://voidash.github.io/blog/tags/scripting/</link>
+      <pubDate>Wed, 12 Jan 2022 14:29:05 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/scripting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://voidash.github.io/blog/tags/c/</link>
+      <pubDate>Tue, 07 Dec 2021 17:20:48 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://voidash.github.io/blog/tags/c&#43;&#43;/</link>
+      <pubDate>Tue, 07 Dec 2021 17:20:48 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison</title>
+      <link>https://voidash.github.io/blog/tags/comparison/</link>
+      <pubDate>Tue, 07 Dec 2021 17:20:48 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/comparison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory Safety</title>
+      <link>https://voidash.github.io/blog/tags/memory-safety/</link>
+      <pubDate>Tue, 07 Dec 2021 17:20:48 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/memory-safety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Languages</title>
+      <link>https://voidash.github.io/blog/tags/programming-languages/</link>
+      <pubDate>Tue, 07 Dec 2021 17:20:48 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems Programming</title>
+      <link>https://voidash.github.io/blog/tags/systems-programming/</link>
+      <pubDate>Tue, 07 Dec 2021 17:20:48 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/systems-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arch</title>
+      <link>https://voidash.github.io/blog/tags/arch/</link>
+      <pubDate>Sat, 04 Dec 2021 08:23:51 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debian</title>
+      <link>https://voidash.github.io/blog/tags/debian/</link>
+      <pubDate>Sat, 04 Dec 2021 08:23:51 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://voidash.github.io/blog/tags/installation/</link>
+      <pubDate>Sat, 04 Dec 2021 08:23:51 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>https://voidash.github.io/blog/tags/setup/</link>
+      <pubDate>Sat, 04 Dec 2021 08:23:51 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embedded systems</title>
+      <link>https://voidash.github.io/blog/tags/embedded-systems/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/embedded-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multiprogramming</title>
+      <link>https://voidash.github.io/blog/tags/multiprogramming/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/multiprogramming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multitasking</title>
+      <link>https://voidash.github.io/blog/tags/multitasking/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/multitasking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multithreading</title>
+      <link>https://voidash.github.io/blog/tags/multithreading/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/multithreading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>operating systems</title>
+      <link>https://voidash.github.io/blog/tags/operating-systems/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/operating-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>real-time</title>
+      <link>https://voidash.github.io/blog/tags/real-time/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/real-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AC</title>
+      <link>https://voidash.github.io/blog/tags/ac/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/ac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alias</title>
+      <link>https://voidash.github.io/blog/tags/alias/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/alias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://voidash.github.io/blog/tags/bash/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command line</title>
+      <link>https://voidash.github.io/blog/tags/command-line/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DC</title>
+      <link>https://voidash.github.io/blog/tags/dc/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/dc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electrical safety</title>
+      <link>https://voidash.github.io/blog/tags/electrical-safety/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/electrical-safety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electricity</title>
+      <link>https://voidash.github.io/blog/tags/electricity/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/electricity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://voidash.github.io/blog/tags/physics/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://voidash.github.io/blog/tags/productivity/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voltage</title>
+      <link>https://voidash.github.io/blog/tags/voltage/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/voltage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inheritance</title>
+      <link>https://voidash.github.io/blog/tags/inheritance/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/inheritance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://voidash.github.io/blog/tags/java/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>https://voidash.github.io/blog/tags/oop/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polymorphism</title>
+      <link>https://voidash.github.io/blog/tags/polymorphism/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/polymorphism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subclass</title>
+      <link>https://voidash.github.io/blog/tags/subclass/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/subclass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>superclass</title>
+      <link>https://voidash.github.io/blog/tags/superclass/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/superclass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chmod</title>
+      <link>https://voidash.github.io/blog/tags/chmod/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/chmod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>file permissions</title>
+      <link>https://voidash.github.io/blog/tags/file-permissions/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/file-permissions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>https://voidash.github.io/blog/tags/unix/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concurrency</title>
+      <link>https://voidash.github.io/blog/tags/concurrency/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>runnable</title>
+      <link>https://voidash.github.io/blog/tags/runnable/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/runnable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threads</title>
+      <link>https://voidash.github.io/blog/tags/threads/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/threads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generics</title>
+      <link>https://voidash.github.io/blog/tags/generics/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/generics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parameterized types</title>
+      <link>https://voidash.github.io/blog/tags/parameterized-types/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/parameterized-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>type safety</title>
+      <link>https://voidash.github.io/blog/tags/type-safety/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/type-safety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>algorithms</title>
+      <link>https://voidash.github.io/blog/tags/algorithms/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer science</title>
+      <link>https://voidash.github.io/blog/tags/computer-science/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data structures</title>
+      <link>https://voidash.github.io/blog/tags/data-structures/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fundamentals</title>
+      <link>https://voidash.github.io/blog/tags/fundamentals/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/fundamentals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>problem solving</title>
+      <link>https://voidash.github.io/blog/tags/problem-solving/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/problem-solving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chemical reactions</title>
+      <link>https://voidash.github.io/blog/tags/chemical-reactions/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/chemical-reactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chemistry</title>
+      <link>https://voidash.github.io/blog/tags/chemistry/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/chemistry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mass conservation</title>
+      <link>https://voidash.github.io/blog/tags/mass-conservation/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/mass-conservation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proportions</title>
+      <link>https://voidash.github.io/blog/tags/proportions/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/proportions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
+      <link>https://voidash.github.io/blog/tags/science/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stoichiometry</title>
+      <link>https://voidash.github.io/blog/tags/stoichiometry/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/stoichiometry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arithmetic</title>
+      <link>https://voidash.github.io/blog/tags/arithmetic/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/arithmetic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>binary</title>
+      <link>https://voidash.github.io/blog/tags/binary/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/binary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>complement method</title>
+      <link>https://voidash.github.io/blog/tags/complement-method/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/complement-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logic gates</title>
+      <link>https://voidash.github.io/blog/tags/logic-gates/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/tags/logic-gates/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

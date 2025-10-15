@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bloatware on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/bloatware/</link>
+    <description>Recent content in Bloatware on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 26 Jan 2022 10:39:07 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/bloatware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uninstall System Apps in Android With ADB</title>
+      <link>https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/</link>
+      <pubDate>Wed, 26 Jan 2022 10:39:07 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/</guid>
+      <description>Remove bloatware and system apps from Android devices using ADB (Android Debug Bridge). Step-by-step guide to uninstall unwanted manufacturer apps at user level without root access.</description>
+    </item>
+    
+  </channel>
+</rss>

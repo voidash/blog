@@ -32,43 +32,241 @@
     <loc>https://voidash.github.io/blog/joy-and-curiosity/2025/1/</loc>
     <lastmod>2025-01-19T19:05:31+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/database/</loc>
+    <lastmod>2023-12-30T15:44:27+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/digital-ocean/</loc>
+    <lastmod>2023-12-30T15:44:27+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/linux/</loc>
+    <lastmod>2023-12-30T15:44:27+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2023/postgres-on-digital-ocean-droplet/</loc>
+    <lastmod>2023-12-30T15:44:27+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/postgresql/</loc>
     <lastmod>2023-12-30T15:44:27+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/</loc>
     <lastmod>2023-12-30T15:44:27+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/system-administration/</loc>
+    <lastmod>2023-12-30T15:44:27+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/</loc>
+    <lastmod>2023-12-30T15:44:27+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/ubuntu/</loc>
+    <lastmod>2023-12-30T15:44:27+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/assembly/</loc>
+    <lastmod>2023-12-29T15:15:25+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/buffer-overflow/</loc>
+    <lastmod>2023-12-29T15:15:25+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/casio/</loc>
+    <lastmod>2023-12-29T15:15:25+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/computer-architecture/</loc>
+    <lastmod>2023-12-29T15:15:25+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2023/hacking-casio-calculator/</loc>
     <lastmod>2023-12-29T15:15:25+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/hardware-hacking/</loc>
+    <lastmod>2023-12-29T15:15:25+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/security/</loc>
+    <lastmod>2023-12-29T15:15:25+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/actix/</loc>
+    <lastmod>2023-12-14T22:22:33+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/deployment/</loc>
+    <lastmod>2023-12-14T22:22:33+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/nginx/</loc>
+    <lastmod>2023-12-14T22:22:33+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2023/rust-webapp/</loc>
     <lastmod>2023-12-14T22:22:33+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/rust/</loc>
+    <lastmod>2023-12-14T22:22:33+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/tera/</loc>
+    <lastmod>2023-12-14T22:22:33+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/tutorial/</loc>
+    <lastmod>2023-12-14T22:22:33+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/web-development/</loc>
+    <lastmod>2023-12-14T22:22:33+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/anonymity/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/api-design/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2023/rest-api-design-handbook-summary/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/best-practices/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/cryptography/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/dark-web/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/http/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/networking/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/privacy/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/rest-api/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/software-architecture/</loc>
+    <lastmod>2023-04-01T20:49:32+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/tor/</loc>
     <lastmod>2023-04-01T20:49:32+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2023/tor-is-beautiful/</loc>
     <lastmod>2023-04-01T20:49:32+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/memories/</loc>
+    <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/mustang/</loc>
+    <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/nepal/</loc>
+    <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/personal/</loc>
+    <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/poetry/</loc>
+    <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/pokhara/</loc>
+    <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2023/mustang-memories/</loc>
     <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/travel/</loc>
+    <lastmod>2023-02-02T17:25:45+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/cli/</loc>
+    <lastmod>2022-01-29T20:07:44+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2022/introducing-nushell/</loc>
     <lastmod>2022-01-29T20:07:44+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/nushell/</loc>
+    <lastmod>2022-01-29T20:07:44+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/shell/</loc>
+    <lastmod>2022-01-29T20:07:44+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/structured-data/</loc>
+    <lastmod>2022-01-29T20:07:44+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/terminal/</loc>
+    <lastmod>2022-01-29T20:07:44+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/adb/</loc>
+    <lastmod>2022-01-26T10:39:07+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/android/</loc>
+    <lastmod>2022-01-26T10:39:07+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/bloatware/</loc>
+    <lastmod>2022-01-26T10:39:07+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/mobile/</loc>
+    <lastmod>2022-01-26T10:39:07+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2022/uninstall-system-apps-in-android-with-adb/</loc>
     <lastmod>2022-01-26T10:39:07+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/configuration/</loc>
+    <lastmod>2022-01-22T10:52:37+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2022/switching-keyboard-layouts-in-linux/</loc>
     <lastmod>2022-01-22T10:52:37+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/i18n/</loc>
+    <lastmod>2022-01-22T10:52:37+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/keyboard-layout/</loc>
+    <lastmod>2022-01-22T10:52:37+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/nepali/</loc>
+    <lastmod>2022-01-22T10:52:37+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/setxkbmap/</loc>
+    <lastmod>2022-01-22T10:52:37+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/x11/</loc>
+    <lastmod>2022-01-22T10:52:37+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/cargo/</loc>
+    <lastmod>2022-01-12T14:29:05+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/programming/</loc>
+    <lastmod>2022-01-12T14:29:05+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/scripting/</loc>
+    <lastmod>2022-01-12T14:29:05+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2021/rust-as-script/</loc>
     <lastmod>2022-01-12T14:29:05+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/c/</loc>
+    <lastmod>2021-12-07T17:20:48+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/c&#43;&#43;/</loc>
+    <lastmod>2021-12-07T17:20:48+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/comparison/</loc>
+    <lastmod>2021-12-07T17:20:48+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/memory-safety/</loc>
+    <lastmod>2021-12-07T17:20:48+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/programming-languages/</loc>
+    <lastmod>2021-12-07T17:20:48+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2021/rust-new-competitor-to-c-and-c&#43;&#43;/</loc>
     <lastmod>2021-12-07T17:20:48+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/systems-programming/</loc>
+    <lastmod>2021-12-07T17:20:48+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/arch/</loc>
+    <lastmod>2021-12-04T08:23:51+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/debian/</loc>
+    <lastmod>2021-12-04T08:23:51+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2021/install-rust-linux/</loc>
+    <lastmod>2021-12-04T08:23:51+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/installation/</loc>
+    <lastmod>2021-12-04T08:23:51+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/setup/</loc>
     <lastmod>2021-12-04T08:23:51+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2021/linux-and-time/</loc>
@@ -80,34 +278,172 @@
     <loc>https://voidash.github.io/blog/random/2020/post-class-reflection/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/embedded-systems/</loc>
+    <lastmod>2019-05-21T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/multiprogramming/</loc>
+    <lastmod>2019-05-21T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/multitasking/</loc>
+    <lastmod>2019-05-21T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/multithreading/</loc>
+    <lastmod>2019-05-21T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/operating-systems/</loc>
+    <lastmod>2019-05-21T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/real-time/</loc>
+    <lastmod>2019-05-21T00:00:00+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2019/operating-systems/</loc>
     <lastmod>2019-05-21T00:00:00+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/ac/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/ac-dc/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/alias/</loc>
     <lastmod>2018-12-29T00:00:00+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/alias-linux/</loc>
     <lastmod>2018-12-29T00:00:00+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/bash/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/command-line/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/dc/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/electrical-safety/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/electricity/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/physics/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/productivity/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/voltage/</loc>
+    <lastmod>2018-12-29T00:00:00+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/understading-inheritance-java/</loc>
     <lastmod>2018-10-23T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/inheritance/</loc>
+    <lastmod>2018-10-23T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/java/</loc>
+    <lastmod>2018-10-23T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/oop/</loc>
+    <lastmod>2018-10-23T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/polymorphism/</loc>
+    <lastmod>2018-10-23T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/subclass/</loc>
+    <lastmod>2018-10-23T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/superclass/</loc>
+    <lastmod>2018-10-23T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/chmod/</loc>
+    <lastmod>2018-08-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/file-permissions/</loc>
+    <lastmod>2018-08-29T00:00:00+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/chmod/</loc>
     <lastmod>2018-08-29T00:00:00+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/unix/</loc>
+    <lastmod>2018-08-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/concurrency/</loc>
+    <lastmod>2018-06-08T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/runnable/</loc>
+    <lastmod>2018-06-08T00:00:00-04:00</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/multithreading-java/</loc>
     <lastmod>2018-06-08T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/threads/</loc>
+    <lastmod>2018-06-08T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/generics/</loc>
+    <lastmod>2018-06-02T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/parameterized-types/</loc>
+    <lastmod>2018-06-02T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/type-safety/</loc>
+    <lastmod>2018-06-02T00:00:00+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/understand-generics-java/</loc>
     <lastmod>2018-06-02T00:00:00+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/algorithms/</loc>
+    <lastmod>2018-05-29T00:00:00+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/what-is-algorithm/</loc>
     <lastmod>2018-05-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/computer-science/</loc>
+    <lastmod>2018-05-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/data-structures/</loc>
+    <lastmod>2018-05-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/fundamentals/</loc>
+    <lastmod>2018-05-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/problem-solving/</loc>
+    <lastmod>2018-05-29T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/chemical-reactions/</loc>
+    <lastmod>2018-05-25T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/chemistry/</loc>
+    <lastmod>2018-05-25T00:00:00+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/posts/2018/law-stoichiometry/</loc>
     <lastmod>2018-05-25T00:00:00+05:45</lastmod>
   </url><url>
+    <loc>https://voidash.github.io/blog/tags/mass-conservation/</loc>
+    <lastmod>2018-05-25T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/proportions/</loc>
+    <lastmod>2018-05-25T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/science/</loc>
+    <lastmod>2018-05-25T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/stoichiometry/</loc>
+    <lastmod>2018-05-25T00:00:00+05:45</lastmod>
+  </url><url>
     <loc>https://voidash.github.io/blog/posts/2017/computers-subtract/</loc>
+    <lastmod>2017-03-12T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/arithmetic/</loc>
+    <lastmod>2017-03-12T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/binary/</loc>
+    <lastmod>2017-03-12T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/complement-method/</loc>
+    <lastmod>2017-03-12T00:00:00+05:45</lastmod>
+  </url><url>
+    <loc>https://voidash.github.io/blog/tags/logic-gates/</loc>
     <lastmod>2017-03-12T00:00:00+05:45</lastmod>
   </url><url>
     <loc>https://voidash.github.io/blog/archives/</loc>
@@ -117,7 +453,5 @@
     <loc>https://voidash.github.io/blog/joy-and-curiosity/</loc>
   </url><url>
     <loc>https://voidash.github.io/blog/random/</loc>
-  </url><url>
-    <loc>https://voidash.github.io/blog/tags/</loc>
   </url>
 </urlset>

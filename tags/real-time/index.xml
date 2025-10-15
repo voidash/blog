@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>real-time on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/real-time/</link>
+    <description>Recent content in real-time on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/real-time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Types of Operating systems on basis of processing</title>
+      <link>https://voidash.github.io/blog/posts/2019/operating-systems/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2019/operating-systems/</guid>
+      <description>Explore different types of operating systems based on process handling: batch, time-slice, multithreading, embedded, and real-time systems.</description>
+    </item>
+    
+  </channel>
+</rss>

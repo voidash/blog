@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deployment on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/deployment/</link>
+    <description>Recent content in Deployment on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 14 Dec 2023 22:22:33 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pragmatic way to create a Rust based Web application | From Start to Deployment</title>
+      <link>https://voidash.github.io/blog/posts/2023/rust-webapp/</link>
+      <pubDate>Thu, 14 Dec 2023 22:22:33 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2023/rust-webapp/</guid>
+      <description>Complete tutorial on building and deploying a Rust web application using Actix-web and Tera templating engine. Covers project setup, templating, systemd service configuration, and Nginx deployment.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Best Practices on AshLogs</title>
+    <link>https://voidash.github.io/blog/tags/best-practices/</link>
+    <description>Recent content in Best Practices on AshLogs</description>
+    <image>
+      <url>https://voidash.github.io/blog/avatar.png</url>
+      <link>https://voidash.github.io/blog/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 AshLogs. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 01 Apr 2023 20:49:32 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Approaching Rest API Design</title>
+      <link>https://voidash.github.io/blog/posts/2023/rest-api-design-handbook-summary/</link>
+      <pubDate>Sat, 01 Apr 2023 20:49:32 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/posts/2023/rest-api-design-handbook-summary/</guid>
+      <description>Comprehensive guide to RESTful API design principles covering Richardson Maturity Model, CRUD operations, URI design patterns, resource archetypes, HTTP methods, and best practices for scalable web APIs.</description>
+    </item>
+    
+  </channel>
+</rss>
