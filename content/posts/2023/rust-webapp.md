@@ -8,7 +8,7 @@ cover:
 
 A straightforward tutorial on how to setup a Rust based web app with actix and basic templating functionalities. A useless endeavour in post GPT era. I assure you all of this is thought out and planned by a human who wasted some human hours on this.
 
-## The tools for the trade 
+## The tools for the trade
 
 - Actix : Web framework for Rust
 - Tera : Templating engine that is one to one copy of Jinja Templating engine
@@ -25,7 +25,7 @@ lazy_static = "1.4.0"
 tera = "1.19.1"
 ```
 
-## Discovering Actix 
+## Discovering Actix
 
 A simple HTTP server that responds with "Hello World". Look through [Getting started with Actix](https://actix.rs/docs/getting-started) for more information.
 
@@ -88,7 +88,7 @@ The base of our templates. For for information about templating refer to [jinja2
     <div id="content">{% block content %}{% endblock content %}</div>
     <div id="footer">
         {% block footer %}
-        &copy; Copyright 2023 <a href="https://thapa-ashish.com.np">Ashish Thapa</a>.
+        &copy; Copyright 2023 <a href="https://voidash.github.io">voidash</a>.
         {% endblock footer %}
     </div>
 </body>
@@ -98,7 +98,7 @@ The base of our templates. For for information about templating refer to [jinja2
 
 Lets focus on **Blocks**
 
-Blocks are used for inheritance and act as both placeholders and replacements at the same time. 
+Blocks are used for inheritance and act as both placeholders and replacements at the same time.
 
 ```
     {% block head %}
@@ -112,7 +112,7 @@ Later other templates can use this as a ground source of truth and extend from t
 Now lets define a child template `countdown.html`
 
 ```
-//save it on templates/countdown.html 
+//save it on templates/countdown.html
 
 {% extends "base.html" %}
 {% block title %}Index{% endblock title %}
@@ -128,20 +128,20 @@ Now lets define a child template `countdown.html`
 {% endblock content %}
 ```
 
-We can go through all the templates with  
+We can go through all the templates with
 
 ```
 #[macro_use]
 extern crate lazy_static;
 
-// code is executed at runtime to be initialized when one uses lazy_static 
+// code is executed at runtime to be initialized when one uses lazy_static
 lazy_static! {
     pub static ref TEMPLATES: Tera = {
         let mut tera = match Tera::new("templates/**/*") {
             Ok(t) => t,
             Err(e) => {
                 println!("Parsing error(s): {}", e);
-                ::std::process::exit(1);        
+                ::std::process::exit(1);
             }
         };
         // to understand why autoescaping is done go
@@ -208,7 +208,7 @@ async fn main() -> std::io::Result<()> {
 
 ```
 
-Once done, try running the app with `cargo run`, and if successful, we can get to setting up setting Nginx. 
+Once done, try running the app with `cargo run`, and if successful, we can get to setting up setting Nginx.
 
 ## Create a systemd service for the app
 
@@ -232,7 +232,7 @@ sudo systemctl enable rust-app-countdown
 sudo systemctl start rust-app-countdown
 ```
 
-## Nginx setup 
+## Nginx setup
 
 Install nginx
 
