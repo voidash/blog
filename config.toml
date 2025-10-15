@@ -1,4 +1,4 @@
-baseURL = 'voidash.github.io/blog'
+baseURL = 'https://voidash.github.io/blog/'
 languageCode = 'en-us'
 title = 'AshLogs'
 content= "Welcome to my blog"
