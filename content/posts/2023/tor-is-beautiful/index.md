@@ -2,8 +2,10 @@
 title: "Tor Is Beautiful"
 date: 2023-04-01T20:49:32+05:45
 draft: false
+description: "Exploring the Tor network architecture and its role in internet privacy. Learn how onion routing, relay circuits, and layered encryption protect anonymity while enabling freedom of information."
 cover:
   image: "https://i.imgur.com/THkHe2l.png"
+tags: ["Tor", "Privacy", "Security", "Networking", "Cryptography", "Anonymity", "Dark Web"]
 ---
 
 Looking through the [Google Summer of Code 2023 organizations](https://summerofcode.withgoogle.com/programs/2023/organizations), I came across the Tor Project. The entry to the dark web, the infamous tor where red rooms are hosted, where secret organizations are working on New world order. At least that's the viewpoint of the man who gets his half the knowledge from youtube.

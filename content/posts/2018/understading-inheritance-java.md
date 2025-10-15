@@ -1,7 +1,9 @@
 ---
 title: " Understanding inheritance in java : SuperclassVariable can reference a Subclass Variable"
-date: 2018-10-23T00:00:00+05:45 
+date: 2018-10-23T00:00:00+05:45
 draft: false
+description: "Understand Java inheritance: how superclass variables reference subclass objects. Learn polymorphism with practical parent-child class examples."
+tags: ["java", "inheritance", "OOP", "polymorphism", "subclass", "superclass"]
 cover:
     image: ""
 ---

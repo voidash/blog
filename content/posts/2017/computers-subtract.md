@@ -2,6 +2,8 @@
 title: "9's complement Method: Computers use those?"
 date: 2017-03-12T00:00:00+05:45
 draft: false
+description: "Learn how computers use 9's complement method for subtraction using the same circuit as addition. A practical guide to computer arithmetic."
+tags: ["computer science", "arithmetic", "complement method", "binary", "computer architecture", "logic gates"]
 cover:
     image: "https://media.istockphoto.com/vectors/blueprint-of-building-vector-id510230824?k=20&m=510230824&s=612x612&w=0&h=r7Ja-6GUzK5QVumR79ZhLiXACHRg9oDmbQ_fH5ZGvVk="
 ---

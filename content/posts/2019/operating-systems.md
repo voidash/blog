@@ -1,7 +1,9 @@
 ---
 title: "Types of Operating systems on basis of processing"
-date: 2019-05-21T00:00:00+05:45 
+date: 2019-05-21T00:00:00+05:45
 draft: false
+description: "Explore different types of operating systems based on process handling: batch, time-slice, multithreading, embedded, and real-time systems."
+tags: ["operating systems", "multitasking", "multiprogramming", "multithreading", "real-time", "embedded systems"]
 cover:
     image: "https://i.imgur.com/Mc37EmH.png"
 ---

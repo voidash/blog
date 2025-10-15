@@ -2,6 +2,8 @@
 title: "How to switch between Nepali and English keyboard layouts in Linux"
 date: 2022-01-22T10:52:37+05:45
 draft: false
+description: "Configure romanized Nepali keyboard layout in Linux using setxkbmap. Works across GNOME, KDE, XFCE desktop environments on X11. Quick setup guide for switching between English and Nepali input."
+tags: ["Linux", "Keyboard Layout", "Nepali", "X11", "setxkbmap", "i18n", "Configuration"]
 ---
 
 Romanized Nepali has become de-facto standard for typing Nepali. This is going to be a short guide on how to enable romanized nepali on Linux. Keep in mind that there is nothing to download as linux comes with the keyboard layout by default. However some of the linux distribution like Ubuntu make this process even simpler by giving a GUI interface. So This post will link external posts for those distribution and will only contain barebones method to change layout, which will work for any desktop environment running on X11 Server. So this tutorial will not work for wayland. 

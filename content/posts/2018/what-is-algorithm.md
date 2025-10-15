@@ -1,7 +1,9 @@
 ---
 title: "Algorithms : A brief example"
-date: 2018-05-29T00:00:00+05:45 
+date: 2018-05-29T00:00:00+05:45
 draft: false
+description: "Introduction to algorithms: step-by-step processes for solving problems. Learn key characteristics like definiteness, finiteness, and feasibility."
+tags: ["algorithms", "computer science", "programming", "problem solving", "fundamentals", "data structures"]
 cover:
     image: "http://web.archive.org/web/20180825092838im_/https://logicaletter.com/wp-content/uploads/2018/05/a9887b9557bf10886149b35d919e328f.jpg"
 ---

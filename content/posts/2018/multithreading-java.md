@@ -1,7 +1,9 @@
 ---
 title: "The Art of Multithreading in java(Java programming guide)"
-date: 2018-06-08T00:00:00-04:00 
+date: 2018-06-08T00:00:00-04:00
 draft: false
+description: "Master Java multithreading: create threads using Runnable interface and Thread class. Learn thread-based concurrency with practical examples."
+tags: ["java", "multithreading", "concurrency", "threads", "programming", "runnable"]
 cover:
     image: "https://www.thesprucecrafts.com/thmb/Kn0VEf6_rZ6OUj4XatYKQuCLgRk=/1883x1412/smart/filters:no_upscale()/thread-58169a705f9b581c0b669d89.jpg"
 ---

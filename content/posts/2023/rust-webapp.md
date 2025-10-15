@@ -2,8 +2,10 @@
 title: "Pragmatic way to create a Rust based Web application | From Start to Deployment"
 date: 2023-12-14T22:22:33+05:45
 draft: false
+description: "Complete tutorial on building and deploying a Rust web application using Actix-web and Tera templating engine. Covers project setup, templating, systemd service configuration, and Nginx deployment."
 cover:
   image: "https://i.imgur.com/2LE2gGU.png"
+tags: ["Rust", "Web Development", "Actix", "Tera", "Nginx", "Deployment", "Tutorial"]
 ---
 
 A straightforward tutorial on how to setup a Rust based web app with actix and basic templating functionalities. A useless endeavour in post GPT era. I assure you all of this is thought out and planned by a human who wasted some human hours on this.

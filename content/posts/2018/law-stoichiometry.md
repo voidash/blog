@@ -1,7 +1,9 @@
 ---
 title: "Law of Stoichiometry"
-date: 2018-05-25T00:00:00+05:45 
+date: 2018-05-25T00:00:00+05:45
 draft: false
+description: "Comprehensive guide to the five laws of stoichiometry: conservation of mass, definite proportions, multiple proportions, and gaseous volumes."
+tags: ["chemistry", "stoichiometry", "chemical reactions", "mass conservation", "proportions", "science"]
 cover:
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Combustion_reaction_of_methane.jpg/400px-Combustion_reaction_of_methane.jpg"
 ---

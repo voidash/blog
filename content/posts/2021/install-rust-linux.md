@@ -2,8 +2,10 @@
 title: "How To Install Rust And The Linker It Requires On Linux"
 date: 2021-12-04T08:23:51+05:45
 draft: false
+description: "Quick guide to installing Rust on Linux including the required linker setup. Covers installation steps for both Arch-based and Debian-based distributions using rustup."
 cover:
     image: "https://www.freecodecamp.org/news/content/images/2020/08/rust-2.jpg"
+tags: ["Rust", "Linux", "Installation", "Tutorial", "Setup", "Arch", "Debian"]
 ---
 This post discusses how to install rust on linux. Well installation process is pretty simple but sometimes minimal distribution like Arch maynot bundle the *linker* and rustup (a tool used to install and manage rust installation) also doesn't include *linker*
 

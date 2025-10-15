@@ -2,6 +2,8 @@
 title: "AC Vs  DC : which is more dangerous?"
 date: 2018-12-29T00:00:00+05:45
 draft: false
+description: "AC vs DC comparison: discover why alternating current is more dangerous than direct current. Learn voltage differences and health impacts."
+tags: ["electricity", "AC", "DC", "electrical safety", "voltage", "physics"]
 cover:
     image: "https://qph.fs.quoracdn.net/main-qimg-225cf6659fb4c1799c2449a6d36e5119"
 ---

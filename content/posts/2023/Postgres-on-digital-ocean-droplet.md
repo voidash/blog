@@ -2,8 +2,10 @@
 title: "Postgres on Digital Ocean Droplet"
 date: 2023-12-30T15:44:27+05:45
 draft: false
+description: "Step-by-step guide to install and configure PostgreSQL on a Digital Ocean Ubuntu droplet, including user setup, remote access configuration, and network settings."
 cover:
   image: "https://i.imgur.com/b2g8ybr.png"
+tags: ["PostgreSQL", "Digital Ocean", "Linux", "Database", "Ubuntu", "System Administration"]
 ---
 
 Digital ocean allows you to just host the postgres database through it's postgreSQL management tools but this tutorial is for those who wants to setup on their droplet machine. This assumes that you are on Ubuntu Machine

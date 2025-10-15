@@ -1,11 +1,12 @@
 ---
 title: "Rust New Competitor to C and C++"
 date: 2021-12-07T17:20:48+05:45
-description: ""
+description: "Why Rust is becoming a viable alternative to C and C++ for systems programming. Explore memory safety, thread safety, modern tooling, and Rust's advantages in embedded systems and WebAssembly."
 draft: false
 ShowReadingTime: true
 cover:
     image: "https://www.incredibuild.com/wp-content/uploads/2021/09/Rust_vs_C_800x533.jpg"
+tags: ["Rust", "C", "C++", "Systems Programming", "Memory Safety", "Programming Languages", "Comparison"]
 ---
 This post tries to reason why Rust might be choice for new projects instead of C and C++. This is a bold statement and there is a need to discuss the types of projects where a comparision is being made. i.e Systems Programming.  Going back a bit further, and taking a look at the motivation for these languages shines a beam of light about the main goal of these languages.
 

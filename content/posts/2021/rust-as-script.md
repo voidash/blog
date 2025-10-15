@@ -2,8 +2,10 @@
 title: "Scripting with Rust: A basic Guide"
 date: 2022-01-12T14:29:05+05:45
 draft: false
+description: "Learn how to use Rust for scripting tasks. Covers primitive Rust scripts with rustc, cargo-script for dependency management, and practical examples of file operations and testing."
 cover:
     image: "https://i.imgur.com/Zsbk06w.png"
+tags: ["Rust", "Scripting", "Programming", "Cargo", "CLI", "Tutorial"]
 ---
 
 Was Rust built to be a scripting language? the types which you can use for crawling  web, extracting links, sending mails etc. Generally stuff that serve single functionality with limited scope. Python fits into that domain perfectly and it is pleasant to write scripts in python. But what about Rust? The language doesn't even come with a garbage collector, and you might as well fight its borrow checker until it deems your code is memory safe. When writing simple scripts, one might not need the features that rust guarantees. Moreover Rust doesn't run in a virtual machine like python does and Compiling scripts everytime you make a single change seems tedious to the workflow. But still you can use rust as a scripting language. Sure there will be more lines than that in python code but it might just make sense in some use cases. 

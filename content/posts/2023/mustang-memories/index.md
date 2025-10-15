@@ -2,8 +2,10 @@
 title: "Pokhara Memories"
 date: 2023-02-02T17:25:45+05:45
 draft: false
+description: "A poetic memoir of travels through Pokhara and Mustang, Nepal. Reflections on cycling, boating at Fewatal, roller skating, and the profound experiences that shape our journey through life."
 cover:
   image: "https://i.imgur.com/x6zUCCz.jpg"
+tags: ["Travel", "Nepal", "Poetry", "Personal", "Memories", "Mustang", "Pokhara"]
 ---
 
 # Memories: Tour to Mustang

@@ -2,6 +2,8 @@
 title: "Alias Linux Command Explained succintly"
 date: 2018-12-29T00:00:00+05:45
 draft: false
+description: "Create custom Linux command shortcuts with alias. Learn to substitute strings for commands and boost your terminal productivity efficiently."
+tags: ["linux", "alias", "command line", "bash", "terminal", "productivity"]
 cover:
     image: ""
 ---

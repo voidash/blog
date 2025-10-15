@@ -1,7 +1,9 @@
 ---
 title: "What are Generics in Java"
-date: 2018-06-02T00:00:00+05:45 
+date: 2018-06-02T00:00:00+05:45
 draft: false
+description: "Master Java generics with practical examples. Learn parameterized types, type safety, and how to write reusable code without casting."
+tags: ["java", "generics", "type safety", "parameterized types", "programming", "OOP"]
 cover:
     image: "https://media.istockphoto.com/vectors/blueprint-of-building-vector-id510230824?k=20&m=510230824&s=612x612&w=0&h=r7Ja-6GUzK5QVumR79ZhLiXACHRg9oDmbQ_fH5ZGvVk="
 ---

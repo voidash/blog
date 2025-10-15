@@ -2,6 +2,8 @@
 title: "Introducing Nushell"
 date: 2022-01-29T20:07:44+05:45
 draft: false
+description: "Introduction to Nushell, a modern cross-platform shell written in Rust that treats everything as structured data. Compare traditional Bash workflows with Nushell's intuitive table-based approach."
+tags: ["Nushell", "Shell", "Rust", "CLI", "Terminal", "Linux", "Structured Data"]
 ---
 
 At it's core Shells are just interactive user interface that exposes OS tools and services. This blog is a introduction to **Nushell** , a cross-platform shell written in Rust . We already have had fair share of shells like Bash, Zsh, Fish etc. Why do we need yet another shell? All existing shells have one thing in common,   They all treat as if **everything is a text**. Enter **Nushell** where **Everything is a structured data**. 

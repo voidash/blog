@@ -2,8 +2,10 @@
 title: "Uninstall System Apps in Android With ADB"
 date: 2022-01-26T10:39:07+05:45
 draft: false
+description: "Remove bloatware and system apps from Android devices using ADB (Android Debug Bridge). Step-by-step guide to uninstall unwanted manufacturer apps at user level without root access."
 cover:
     image: "https://i.imgur.com/MZhbQl3.png"
+tags: ["Android", "ADB", "Mobile", "Bloatware", "Tutorial", "System Administration"]
 ---
 
 > Computer is required 

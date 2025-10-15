@@ -1,9 +1,10 @@
 baseURL = 'https://voidash.github.io/blog/'
 languageCode = 'en-us'
 title = 'AshLogs'
-content= "Welcome to my blog"
+copyright = '© 2025 AshLogs. All rights reserved.'
+enableRobotsTXT = true
+
 theme = "PaperMod"
-headline= 'Serenity'
 
 [permalinks]
 tutorials = "/blog/blogger/:title/"
@@ -19,5 +20,41 @@ tutorials = "/blog/blogger/:title/"
   disableXML = true
 
 [Params]
+description = "A technical blog covering Rust programming, web development, Linux systems, networking, and software engineering. Tutorials, guides, and insights on modern development practices."
+keywords = ["Rust", "web development", "Linux", "programming", "software engineering", "tutorials", "system administration", "networking", "PostgreSQL"]
+author = "voidash"
 giscusTheme="preferred_color_scheme"
 disableComments=false
+
+# SEO and Social
+images = ["https://voidash.github.io/blog/avatar.png"]
+
+# Analytics and Verification
+[Params.analytics]
+  [Params.analytics.google]
+    SiteVerificationTag = "UWc_vqrflPn4rrx6uodIU3uWRIFP4bAhSnG8LWOZNMI"
+
+# Structured Data (Schema.org)
+[Params.schema]
+  publisherType = "Person"
+  sameAs = [
+    "https://github.com/voidash"
+  ]
+
+# Home page info
+[Params.homeInfoParams]
+  Title = "AshLogs"
+  Content = "Technical blog about Rust, web development, and systems programming"
+
+# Profile Mode
+[Params.profileMode]
+  enabled = false
+
+# Social Icons
+[[Params.socialIcons]]
+  name = "github"
+  url = "https://github.com/voidash"
+
+[[Params.socialIcons]]
+  name = "rss"
+  url = "https://voidash.github.io/blog/index.xml"

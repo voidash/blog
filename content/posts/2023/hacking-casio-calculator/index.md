@@ -2,8 +2,10 @@
 title: "Hacking Casio Calculator"
 date: 2023-12-29T15:15:25+05:45
 draft: false
+description: "Deep dive into hacking the Casio fx-991es calculator by exploiting buffer overflow vulnerabilities in its nX-u8 chip architecture. Learn about Harvard architecture, memory manipulation, and ROP techniques."
 cover:
   image: "img/2023-12-29-15-38-14.png"
+tags: ["Security", "Hardware Hacking", "Buffer Overflow", "Computer Architecture", "Assembly", "Casio"]
 ---
 
 Let's hack the fx-991es calculator. Precisely we are exploiting the Buffer Overflow technique and doing some stuff {TODO}.Let me be clear that the calculator is a computer anyways. Buckle up as weare going to dive deep into some Computer Architecture.

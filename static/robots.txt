@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://voidash.github.io/blog/sitemap.xml

@@ -2,6 +2,8 @@
 title: "Linux Chmod command explained"
 date: 2018-08-29T00:00:00+05:45
 draft: false
+description: "Complete chmod tutorial: change file permissions in Linux using symbolic and octal notation. Master user, group, and other access controls."
+tags: ["linux", "chmod", "file permissions", "unix", "command line", "system administration"]
 cover:
     image: "https://i.imgur.com/LCV5cNA.png"
 ---
