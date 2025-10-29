@@ -50,6 +50,10 @@ images = ["https://voidash.github.io/blog/avatar.png"]
 [Params.profileMode]
   enabled = false
 
+# Cover images
+[Params.cover]
+  responsiveImages = false
+
 # Social Icons
 [[Params.socialIcons]]
   name = "github"
