@@ -11,7 +11,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 AshLogs. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 21 Nov 2025 20:27:31 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/joy-and-curiosity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Dec 2025 01:02:31 +0545</lastBuildDate><atom:link href="https://voidash.github.io/blog/joy-and-curiosity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Week of Curiosity #11</title>
+      <link>https://voidash.github.io/blog/joy-and-curiosity/2025/11/</link>
+      <pubDate>Wed, 24 Dec 2025 01:02:31 +0545</pubDate>
+      
+      <guid>https://voidash.github.io/blog/joy-and-curiosity/2025/11/</guid>
+      <description>My home server is coming along. powered by openmediavault whose tag is &amp;ldquo;Data | Sovereignty | Made | Easy&amp;rdquo;. These are the people who have same goal as me maintaining something that brings power back to you.
+ git.fell-truck.ts.net for my self hosted forgejo git server. omv.fell-truck.ts.net for my vaultwarden server I also have immich, zotero and netbootxyz setup already and further plan to have pdf tools, jellyfin on my device.</description>
+    </item>
+    
     <item>
       <title>A Week of Curiosity #10</title>
       <link>https://voidash.github.io/blog/joy-and-curiosity/2025/10/</link>
