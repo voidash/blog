@@ -26,8 +26,6 @@ cover:
 - Did i ever tell you the [Definition of Insanity](https://www.youtube.com/watch?v=rKMMCPeiQoc) ? Watch the video
   [Vaas(Micheal Mando)](https://en.wikipedia.org/wiki/Michael_Mando) is my favorite game character.
 
-- Dec 18 is excruciating for me. The morale couldn't be any low. It's been around 4 months since i have hit the gym and the gains have plateued. On top of that the veil of love potion is leaving a nasty hangover; I am not even sure if i want to be in relationship anymore.  Mobile phone is no longer serving me, but seems like i am serving it. I have become a peak consumer.  I feel left out, overtaken in my career path. All the passion i had for all the side projects is no longer there because the clock is experiment-blocker. I know i need to focus on one thing. I need to leave the innumerable ideas rotting and this has been a shock factor for me and i am trying to escape it.
-
 - Dec 25th and i see improvements. Good fucking improvements and i am back on track.
 
 - Commit earlier, expose sooner
